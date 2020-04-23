@@ -17,7 +17,7 @@ import api from '../images/api.png';
 function Card() {
     return(
         <Content>
-            <a href="/">
+            <a href="/WorkResort">
 				<div className="container d-flex col-example">
 					<div className="row">
 						<div className="col-md-6">
@@ -37,9 +37,9 @@ function Card() {
 						</div>
 					</div>
 				</div>
-			</a>
+                </a>
 
-            <a href="/">
+            <a href="/WorkRobot">
 				<div className="container d-flex col-example">
 					<div className="row">
 						<div className="col-md-6">
@@ -60,7 +60,7 @@ function Card() {
 				</div>
 			</a>
 
-            <a href="/">
+            <a href="/WorkCoaching">
 				<div className="container d-flex col-example">
 					<div className="row">
 						<div className="col-md-6">

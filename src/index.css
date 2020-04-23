@@ -39,7 +39,7 @@ h2 {
 }
 
 .nav-purple:hover {
-  color: rgb(93, 91, 201);
+  color: #4a00d8;
   text-decoration: none;
 }
 
@@ -62,6 +62,8 @@ h2 {
   margin: 0px auto;
   padding-top: 4rem;
   max-width: 740px;
+  margin-bottom: 6rem;
+
 }
 
 .pink-circle {
@@ -131,5 +133,30 @@ border-bottom: 1px solid rgb(238, 238, 238);
   animation-name: fadeInUp;
 }
 
+/* RESORT */
 
+.resort {
+  padding-top: 100px;
+}
 
+.resort-image {
+  box-shadow:   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+                0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+                0 12.5px 10px rgba(0, 0, 0, 0.06),
+                0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+                0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+                0 100px 80px rgba(0, 0, 0, 0.12);
+  width: 400px;
+  height: auto;
+
+}
+
+.title {
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+.title-gold {
+border-bottom: 10px solid gold;
+line-height: 3rem;
+}

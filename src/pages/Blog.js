@@ -1,13 +1,49 @@
 import React from 'react';
-import Fade from 'react-reveal/Fade';
 import pink from '../images/avatar.png';
 
 function Blog() {
     return(
-        <Fade bottom>
+        <>
+
+            <div className="blog-article">
+                <h1>My Favorite Visual Code Studio Extensions</h1>
+                <p>Wednesday, April 25th 2020</p>
+                <img className="pink-circle mr-2" src={pink} alt="pink circle"></img>
+                Enora Lecuyer (<a href="https://github.com/enoralecuyer">@heyenora</a>)
+                <p className="border-top mt-3"></p>
+                    <p>
+                        Visual Studio Code is by far my favorite code editor. I've tried Sublime and Atom in the past but they really don't make the cut. 
+                    </p>
+                <p className="title-with-border"><strong>Extensions</strong></p>
+                <ul>
+                    <li><strong>Bracket Pair Colorizer 2</strong></li>
+                    <p>
+                        It is a customizable extension for coloring matching brackets and it is simply a life saver. 
+                    </p>
+                    <li><strong>ES7 React/Redux/GraphQL/React-Native snippets</strong></li>
+                    <p>
+                        It allows me to write snippets instead of the full code. For example "imr→	import React from 'react'".
+                    </p>
+                    <li><strong>Highlight Matching Tag</strong></li>
+                    <p>
+                        The title says it all.
+                    </p>
+                    <li><strong>Lorem Ipsum</strong></li>
+                    <p>
+                        Generates and inserts lorem ipsum text in VSC. Faster then pasting it from a website. 
+                    </p>
+                    <li><strong>Night Owl</strong></li>
+                    <p>My favorite Dark Theme for VSC.</p>
+                </ul>
+                <p>More plugins ideas <a href="https://scotch.io/bar-talk/22-best-visual-studio-code-extensions-for-web-development">here</a>.</p>
+            </div>
+
+
+
+
             <div className="blog-article">
                 <h1>My Favorite Developer Tools</h1>
-                <p>Wednesday, April 25th 2020</p>
+                <p>Wednesday, April 22th 2020</p>
                 <img className="pink-circle mr-2" src={pink} alt="pink circle"></img>
                 Enora Lecuyer (<a href="https://github.com/enoralecuyer">@heyenora</a>)
                 <p className="border-top mt-3"></p>
@@ -75,7 +111,7 @@ function Blog() {
                     </p>
                 </ul>
 
-                <p className="title-with-border"><strong>CSS tools</strong></p>
+                <p className="title-with-border"><strong>CSS</strong></p>
                 <ul>
                     <li><strong><a href="https://css-tricks.com/">CSS Tricks</a></strong></li>
                     <p>Extended library of CSS tools and resources.
@@ -138,7 +174,7 @@ function Blog() {
                 </ul>
 
 
-                <p className="title-with-border"><strong>JavaScript Extra help</strong></p>
+                <p className="title-with-border"><strong>JavaScript</strong></p>
                 <ul>
                     <li><strong><a href="https://html-online.com/articles/dynamic-scroll-back-top-page-button-javascript/">Back to Top Arrow</a></strong></li>
                     <p>Functional and elegant back to top arrow.
@@ -176,8 +212,14 @@ function Blog() {
                     </p>
                 </ul>
 
-                <p className="title-with-border"><strong>React Extra Help</strong></p>
+                <p className="title-with-border"><strong>React</strong></p>
                 <ul>
+                    <li><strong><a href="https://github.com/facebook/create-react-appl">React Repository</a></strong></li>
+                    <p>create-react-app repository.
+                    </p>
+                    <li><strong><a href="https://github.com/facebook/create-react-applhttps://upmostly.com/tutorials/create-simple-web-app-react-airtable">Airtable + React</a></strong></li>
+                    <p>Build an app with React and Airtable API.
+                    </p>
                     <li><strong><a href="https://reactjs.org/docs/react-component.html">React Component</a></strong></li>
                     <p>A guide on React components.
                     </p>
@@ -240,43 +282,6 @@ function Blog() {
                     <p>
                     </p>
                 </ul>
-
-
-            </div>
-
-
-
-            <div className="blog-article">
-                <h1>My Favorite Visual Code Studio Extensions</h1>
-                <p>Wednesday, April 22th 2020</p>
-                <img className="pink-circle mr-2" src={pink} alt="pink circle"></img>
-                Enora Lecuyer (<a href="https://github.com/enoralecuyer">@heyenora</a>)
-                <p className="border-top mt-3"></p>
-                    <p>
-                        Visual Studio Code is by far my favorite code editor. I've tried Sublime and Atom in the past but they really don't make the cut. 
-                    </p>
-                <p className="title-with-border"><strong>Extensions</strong></p>
-                <ul>
-                    <li><strong>Bracket Pair Colorizer 2</strong></li>
-                    <p>
-                        It is a customizable extension for coloring matching brackets and it is simply a life saver. 
-                    </p>
-                    <li><strong>ES7 React/Redux/GraphQL/React-Native snippets</strong></li>
-                    <p>
-                        It allows me to write snippets instead of the full code. For example "imr→	import React from 'react'".
-                    </p>
-                    <li><strong>Highlight Matching Tag</strong></li>
-                    <p>
-                        The title says it all.
-                    </p>
-                    <li><strong>Lorem Ipsum</strong></li>
-                    <p>
-                        Generates and inserts lorem ipsum text in VSC. Faster then pasting it from a website. 
-                    </p>
-                    <li><strong>Night Owl</strong></li>
-                    <p>My favorite Dark Theme for VSC.</p>
-                </ul>
-                <p>More plugins ideas <a href="https://scotch.io/bar-talk/22-best-visual-studio-code-extensions-for-web-development">here</a>.</p>
             </div>
 
 
@@ -300,7 +305,7 @@ function Blog() {
             </ol>
             <p>And there you have it!</p>
         </div>
-    </Fade>
+        </>
     );
 }
 

@@ -11,6 +11,9 @@ import About from './pages/About';
 import Work from './pages/Work';
 import Blog from './pages/Blog';
 import Footer from './components/Footer';
+import WorkResort from './pages/WorkResort';
+import WorkRobot from './pages/WorkRobot';
+import WorkCoaching from './pages/WorkCoaching';
 
 class App extends React.Component {
 
@@ -33,6 +36,15 @@ class App extends React.Component {
       },
       work: {
         title: `My Recent Projects`,
+      },
+      workresort: {
+        title: `W Hotels Resort`,
+      },
+      workrobot: {
+        title: `Robot App`,
+      },
+      workcoaching: {
+        title: `Coaching Website`,
       },
       blog: {
         title: `My Blog`,
@@ -61,6 +73,9 @@ class App extends React.Component {
 
         <Route path="/" exact render={() => <Home title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} /> } />
         <Route path="/work" render={() => <Work title={this.state.work.title}/> } />
+        <Route path="/workresort" render={() => <WorkResort title={this.state.workresort.title}/> } />
+        <Route path="/workrobot" render={() => <WorkRobot title={this.state.workrobot.title}/> } />
+        <Route path="/workcoaching" render={() => <WorkCoaching title={this.state.workcoaching.title}/> } />
         <Route path="/about" render={() => <About title={this.state.about.title}/> } />
         <Route path="/blog" render={() => <Blog title={this.state.blog.title}/> } />
 
