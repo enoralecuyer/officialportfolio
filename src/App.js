@@ -8,7 +8,6 @@ import './App.css';
 
 import Home from './pages/Home';
 import About from './pages/About';
-import Work from './pages/Work';
 import BlogIndex from './pages/BlogIndex';
 import FavDevTools from './pages/blog/FavDevTools';
 import WomenOfReact from './pages/blog/WomenOfReact';
@@ -84,7 +83,7 @@ class App extends React.Component {
         </Navbar>
 
         <Route path="/" exact render={() => <Home title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} /> } />
-        <Route path="/work" render={() => <Work title={this.state.work.title}/> } />
+        <Route path="/work" render={() => <Home title={this.state.home.title}/> } />
         <Route path="/workresort" render={() => <WorkResort title={this.state.workresort.title}/> } />
         <Route path="/workrobot" render={() => <WorkRobot title={this.state.workrobot.title}/> } />
         <Route path="/workcoaching" render={() => <WorkCoaching title={this.state.workcoaching.title}/> } />

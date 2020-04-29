@@ -11,7 +11,7 @@ function About() {
             <Container fluid={true}>
                 <Row className="justify-content-center">
                     <Col md={8}>
-                            <h1 className="about-title">Hi, nice to meet you!</h1>
+                            <h1 className="about-title"> Hi, nice to meet you!</h1>
                             <img className="profile" src={profile} alt="profile" />
                             <div className="about-description">
                             <p>

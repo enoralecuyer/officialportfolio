@@ -3,34 +3,75 @@ import Emoji from '../../components/Emoji';
 
 
 function Blog() {
-    return(
+    return (
         <>
             <div className="blog-article">
-                <h1><Emoji symbol="💕" label="two hearts"/>My Favorite Visual Code Studio Extensions</h1>
-                <p>April 25, 2020</p>
-                    <p>
-                        Visual Studio Code is by far my favorite code editor. I've tried Sublime and Atom in the past but they really don't make the cut. 
-                    </p>
-                <p className="title-with-border"><strong>Extensions</strong></p>
+                <h1>
+                    <Emoji symbol="💕" label="two hearts" />
+                    My Favorite Visual Code Studio Extensions
+                </h1>
+                <p>
+                    April 25, 2020
+                </p>
+                <p>
+                    Visual Studio Code is by far my favorite code editor. I've tried Sublime and Atom in the past but they really don't make the cut.
+                </p>
+                <p className="title-with-border">
+                    <strong>
+                        Extensions
+                    </strong>
+                </p>
                 <ul>
-                    <li><strong>Bracket Pair Colorizer 2</strong></li>
+                    <li>
+                        <strong>
+                            <a href="https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2">
+                                Bracket Pair Colorizer 2
+                            </a>
+                        </strong>
+                    </li>
                     <p>
-                        It is a customizable extension for coloring matching brackets and it is simply a life saver. 
+                        Colors matching brackets.
                     </p>
-                    <li><strong>ES7 React/Redux/GraphQL/React-Native snippets</strong></li>
+                    <li>
+                        <strong>
+                            <a href="https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippetsES7">
+                                React/Redux/GraphQL/React-Native snippets
+                            </a>
+                        </strong>
+                    </li>
                     <p>
-                        It allows me to write snippets instead of the full code. For example "imr→	import React from 'react'".
+                        Writes snippets instead of the full text.
                     </p>
-                    <li><strong>Highlight Matching Tag</strong></li>
+                    <li>
+                        <strong>
+                            <a href="https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag">
+                                Highlight Matching Tag
+                            </a>
+                        </strong>
+                    </li>
                     <p>
-                        The title says it all.
+                        Highlights matching tags.
                     </p>
-                    <li><strong>Lorem Ipsum</strong></li>
+                    <li>
+                        <strong>
+                            <a href="https://marketplace.visualstudio.com/items?itemName=Tyriar.lorem-ipsum">
+                                Lorem Ipsum
+                            </a>
+                        </strong>
+                    </li>
                     <p>
-                        Generates and inserts lorem ipsum text in VSC. Faster then pasting it from a website. 
+                        Generates lorem ipsum paragraphs.
                     </p>
-                    <li><strong>Night Owl</strong></li>
-                    <p>My favorite Dark Theme for VSC.</p>
+                    <li>
+                        <strong>
+                            <a href="https://marketplace.visualstudio.com/items?itemName=sdras.night-owl">
+                                Night Owl
+                            </a>
+                        </strong>
+                    </li>
+                    <p>
+                        Favorite night theme.
+                    </p>
                 </ul>
             </div>
         </>

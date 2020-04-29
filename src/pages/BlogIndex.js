@@ -6,7 +6,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 function BlogIndex() {
-
     return(
         <>
         <Container fluid={true} className="table-of-contents">

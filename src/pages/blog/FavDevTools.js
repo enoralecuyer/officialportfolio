@@ -3,53 +3,125 @@ import Emoji from '../../components/Emoji';
 
 
 function Blog() {
-    return(
+    return (
         <>
             <div className="blog-article">
-                <h1><Emoji symbol="🎉" label="party popper"/>My Favorite Developer Tools</h1>
-                <p>April 22, 2020</p>
-                <p>Over the years, I've accumulated quite a fiew useful tools and resources for programmers.
-                    It's time to organize and share it all! 
+                <h1>
+                    <Emoji symbol="🎉" label="party popper" />
+                    My Favorite Developer Tools
+                </h1>
+                <p>
+                    April 22, 2020
+                </p>
+                <p>
+                    Over the years, I've accumulated quite a fiew useful tools and resources for programmers. It's time to organize and share it all!
                 </p>
 
-                <p className="title-with-border"><strong>APIs</strong></p>
+                <p className="title-with-border">
+                    <strong>
+                        APIs
+                    </strong>
+                </p>
                 <ul>
-                    <li><strong><a href="https://apilist.fun/">Open Source APIs</a></strong></li>
-                    <p>An open-source list of APIs.
+                    <li>
+                        <strong>
+                            <a href="https://apilist.fun/">
+                                Open Source APIs
+                            </a>
+                        </strong>
+                    </li>
+                    <p>
+                        An open-source list of APIs.
                     </p>
-                    <li><strong><a href="https://public-apis.xyz/">Public APIs</a></strong></li>
-                    <p>A list of public APIs.
+                    <li>
+                        <strong>
+                            <a href="https://public-apis.xyz/">
+                                Public APIs
+                            </a>
+                        </strong>
+                    </li>
+                    <p>
+                        A list of public APIs.
                     </p>
                 </ul>
 
-                <p className="title-with-border"><strong>App development</strong></p>
+                <p className="title-with-border">
+                    <strong>
+                        App development
+                    </strong>
+                </p>
                 <ul>
-                    <li><strong><a href="https://expo.io/">Expo</a></strong></li>
-                    <p>The fastest way to build an app.
+                    <li>
+                        <strong>
+                            <a href="https://expo.io/">
+                                Expo
+                            </a>
+                        </strong>
+                    </li>
+                    <p>
+                        The fastest way to build an app.
                     </p>
-                    <li><strong><a href="https://reactnative.dev/">React Native</a></strong></li>
-                    <p>Creates truly native apps and doesn't compromise on UX/UI.
+                    <li>
+                        <strong>
+                            <a href="https://reactnative.dev/">
+                                React Native
+                            </a>
+                        </strong>
+                    </li>
+                    <p>
+                        Creates truly native apps and doesn't compromise on UX/UI.
                     </p>
                 </ul>
 
-                <p className="title-with-border"><strong>Code Compatibility</strong></p>
+                <p className="title-with-border">
+                    <strong>
+                        Code Compatibility
+                    </strong>
+                </p>
                 <ul>
-                    <li><strong><a href="https://babeljs.io/repl">BabelJS</a></strong></li>
-                    <p>Babel is a JavaScript compiler.
+                    <li>
+                        <strong>
+                            <a href="https://babeljs.io/repl">
+                                BabelJS
+                            </a>
+                        </strong>
+                    </li>
+                    <p>
+                        Babel is a JavaScript compiler.
                     </p>
-                    <li><strong><a href="https://caniuse.com/">Can I Use?</a></strong></li>
-                    <p>Browser compatibility tables.
+                    <li>
+                        <strong>
+                            <a href="https://caniuse.com/">
+                                Can I Use?
+                            </a>
+                        </strong>
+                    </li>
+                    <p>
+                        Browser compatibility tables.
                     </p>
                 </ul>
 
-                <p className="title-with-border"><strong>CSS</strong></p>
+                <p className="title-with-border">
+                    <strong>
+                        CSS
+                    </strong>
+                </p>
                 <ul>
-                    <li><strong><a href="https://daneden.github.io/animate.css/">Animate.css</a></strong></li>
-                    <p>A CSS animation library.
-                    </p> 
-                    <li><strong><a href="https://thoughtbot.com/blog/css-animation-for-beginners">Animation for Beginner</a></strong></li>
+                    <li>
+                        <strong>
+                            <a href="https://daneden.github.io/animate.css/">
+                                Animate.css
+                            </a>
+                        </strong>
+                    </li>
+                    <p>
+                        A CSS animation library.
+                    </p>
+                    <li>
+                        <strong>
+                            <a href="https://thoughtbot.com/blog/css-animation-for-beginners">Animation for Beginner</a></strong></li>
                     <p>A guide to CSS Animation
-                    </p>             
+                    </p>
                     <li><strong><a href="https://css-tricks.com/">CSS Tricks</a></strong></li>
                     <p>Extended library of CSS tools and resources.
                     </p>
@@ -64,21 +136,21 @@ function Blog() {
                     </p>
                     <li><strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient">Linear Gradient</a></strong></li>
                     <p>Linear Gradient in CSS.
-                    </p> 
+                    </p>
                     <li><strong><a href="https://www.cleancss.com/css-minify/">Minify</a></strong></li>
                     <p>A tool to compress our CSS.
                     </p>
                     <li><strong><a href="https://paletton.com">Paletton</a></strong></li>
-                    <p>Find the code for your color and find complementary colors. 
+                    <p>Find the code for your color and find complementary colors.
                     </p>
                     <li><strong><a href="https://specificity.keegan.st/">Specificity Calculator</a></strong></li>
-                    <p>A visual way to understand the hierachy of CSS Specificity. 
+                    <p>A visual way to understand the hierachy of CSS Specificity.
                     </p>
                     <li><strong><a href="https://styled-components.com/">Styled Component</a></strong></li>
                     <p>Styled Component.
-                    </p> 
+                    </p>
                     <li><strong><a href="https://thoughtbot.com/blog/transitions-and-transforms">Transition and Transform</a></strong></li>
-                    <p>A guide to CSS Transition and Transform. 
+                    <p>A guide to CSS Transition and Transform.
                     </p>
                     <li><strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align/">Vertical Align</a></strong></li>
                     <p>The vertical-align CSS property sets vertical alignment of an inline, inline-block or table-cell box.
@@ -103,7 +175,7 @@ function Blog() {
                     <p>ECMA new features.
                     </p>
                     <li><strong><a href="https://developer.mozilla.org/en-US/docs/Web/Events">Event Reference</a></strong></li>
-                    <p>Exhaustive lists of events, for example onClick. 
+                    <p>Exhaustive lists of events, for example onClick.
                     </p>
                     <li><strong><a href="https://www.npmjs.com/">npm</a></strong></li>
                     <p>The whole npm plugins library.
@@ -167,7 +239,7 @@ function Blog() {
                     </p>
                     <li><strong><a href="https://github.com/facebook/create-react-appl">Repository</a></strong></li>
                     <p>Repository of create-react-app.
-                    </p>                    
+                    </p>
                 </ul>
 
                 <p className="title-with-border"><strong>React Plugins</strong></p>
@@ -184,8 +256,8 @@ function Blog() {
                     <li><strong><a href="https://vx-demo.now.sh/gallery">react-vx</a></strong></li>
                     <p>Low-level visualization components.
                     </p>
-                    
-  
+
+
                 </ul>
 
                 <p className="title-with-border"><strong>UI</strong></p>
