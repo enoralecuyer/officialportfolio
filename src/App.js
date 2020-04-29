@@ -9,7 +9,10 @@ import './App.css';
 import Home from './pages/Home';
 import About from './pages/About';
 import Work from './pages/Work';
-import Blog from './pages/Blog';
+import BlogIndex from './pages/BlogIndex';
+import FavDevTools from './pages/blog/FavDevTools';
+import WomenOfReact from './pages/blog/WomenOfReact';
+import VSCExtensions from './pages/blog/VSCExtensions';
 import Footer from './components/Footer';
 import WorkResort from './pages/WorkResort';
 import WorkRobot from './pages/WorkRobot';
@@ -24,7 +27,7 @@ class App extends React.Component {
       headerLinks: [
         { title: 'Work', path: '/work' },
         { title: 'About', path: '/about' },
-        { title: 'Blog', path: '/blog' },
+        { title: 'Blog', path: '/blogindex' },
       ],
       home: {
         title: `Hi, I'm Enora,`,
@@ -46,8 +49,17 @@ class App extends React.Component {
       workcoaching: {
         title: `Coaching Website`,
       },
-      blog: {
-        title: `My Blog`,
+      blogindex: {
+        title: `Blog Index`,
+      },
+      favdevtools: {
+        title: `Blog Index`,
+      },
+      vscextensions: {
+        title: `blog`
+      },
+      womenofreact: {
+        title: `Blog Index`,
       }
     }
   }
@@ -66,7 +78,7 @@ class App extends React.Component {
             <Nav className="ml-auto">
               <Link className="nav-purple" to="/work">Work</Link>
               <Link className="nav-purple" to="/about">About</Link>
-              <Link className="nav-purple" to="/blog">Blog</Link>
+              <Link className="nav-purple" to="/blogindex">Blog</Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
@@ -77,7 +89,10 @@ class App extends React.Component {
         <Route path="/workrobot" render={() => <WorkRobot title={this.state.workrobot.title}/> } />
         <Route path="/workcoaching" render={() => <WorkCoaching title={this.state.workcoaching.title}/> } />
         <Route path="/about" render={() => <About title={this.state.about.title}/> } />
-        <Route path="/blog" render={() => <Blog title={this.state.blog.title}/> } />
+        <Route path="/blogindex" render={() => <BlogIndex title={this.state.blogindex.title}/> } />
+        <Route path="/womenofreact" render={() => <WomenOfReact title={this.state.womenofreact.title}/> } />
+        <Route path="/favdevtools" render={() => <FavDevTools title={this.state.favdevtools.title}/> } />
+        <Route path="/vscextensions" render={() => <VSCExtensions title={this.state.vscextensions.title}/> } />
 
         <Footer />
 

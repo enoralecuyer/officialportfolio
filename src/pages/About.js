@@ -1,64 +1,55 @@
 import React from 'react';
-import Hero from '../components/Hero';
-import Content from '../components/Content';
-import logo from '../images/avatar2.png';
-
+import profile from '../images/profile.png';
 
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import { FaGithub, FaStackOverflow, FaLinkedin, FaEnvelope, FaFile } from 'react-icons/fa';
 
-
-
-function About(props) {
+function About() {
     return(
-        <div>
-            {/* take hero component but change title */}
-            <Hero title={props.title}/>
-            <Content>
-                <Container>
-                    <Row className="p-5">
-                        <Col>
-                            <img className="logo" src={logo} alt="Logo" />
-                            </Col>
-                            <Col>
-                            <h1><strong>Hi, nice to meet you!</strong></h1>
-                            <p>I code in HTML5, CSS3 and JavaScript. When I am not working, I enjoy walking, 
-                                gardening or playing video games with my wife.</p>
-                            <h2>Expertise</h2>
-                            <ul>
-                                <li>HTML and CSS</li>
-                                <li>JavaScript</li>
-                                <li>jQuery</li>
-                                <li>ReactJS</li>
-                                <li>GatsbyJS</li>
-                                <li>Bootstrap</li>
-                                <li>APIs</li>
-                                <li>Contentful</li>
-                                <li>Netlify</li>
-                                <li>Responsive Design</li>
-                                <li>Testing and Debugging</li>
-                                <li>Versions Control with Git</li>
-                            </ul>
-                            <h1>Education</h1>
-                            <ul>
-                                <li>Data Science Professional Certificate Specialization - IBM</li>
-                                <li>Software Product Management Specialization - University of Alberta, Canada</li>
-                                <li>Master's degree in Art History and Cultural Management - France</li>
-                            </ul>
-                            <h1>Download Resume</h1>
-                                <a className="icon-small" href="https://www.linkedin.com/in/enoralecuyer1/"><FaFile /></a>
-                            <h1>Get in touch</h1>
-                            <a className="icon-small" href="mailto:enora.lecuyer1@gmail.com"><FaEnvelope /></a>
-                            <a className="icon-small" href="https://github.com/enoralecuyer"><FaGithub /></a>
-                            <a className="icon-small" href="https://stackoverflow.com/users/12963316/eimn?tab=profile"><FaStackOverflow /></a>
-                            <a className="icon-small" href="https://www.linkedin.com/in/enoralecuyer1/"><FaLinkedin /></a>
+        <>
+            <Container fluid={true}>
+                <Row className="justify-content-center">
+                    <Col md={8}>
+                            <h1 className="about-title">Hi, nice to meet you!</h1>
+                            <img className="profile" src={profile} alt="profile" />
+                            <div className="about-description">
+                            <p>
+                                Enora Lecuyer lives in Orange County, CA with her wife, and their cat and dog. Originally from France, 
+                                she previously studied Art History, Project Management and Business Coaching.
+                            </p>
+                            <p>
+                                After running two businesses in coaching and pet care, she returned to her deep love of databases and coding.
+                                Enora is currently volunteering on the open source project 1 Trillion Trees to help replant trees around the world.
+                            </p>
+                            <p>
+                                When she is not coding and learning about new languages, she is usually found hiking, gardening or playing video
+                                games with her wife. 
+                            </p>
+                            
+                            <p className="pt-3">
+                                <strong>Skills: </strong>HTML5, CSS3, React, Bootstrap, jQuery, APIs, Gatsby, Contentful, Netlify, Github, Responsive Design, 
+                                Version Control, Testing and Debugging.
+                            </p>
+
+                            <p className="pt-3">
+                                <strong>Education: </strong>
+                                    <li className="no-dot">Data Science Professional Certificate Specialization - IBM</li>
+                                    <li className="no-dot">Software Product Management Specialization - University of Alberta, Canada</li>
+                                    <li className="no-dot">Master's degree in Art History and Cultural Management - France</li>
+                            </p>
+                            <p className="pt-3">
+                                <strong>Get in touch: </strong> 
+                                <a href="https://www.linkedin.com/in/enoralecuyer1/">Resume</a>,
+                                <a href="mailto:enora.lecuyer1@gmail.com"> Email</a> ,
+                                <a href="https://github.com/enoralecuyer"> GitHub</a>, 
+                                <a href="https://www.linkedin.com/in/enoralecuyer1/"> LinkedIn</a>.
+                            </p>
+                            </div>
                         </Col>
                     </Row>
                 </Container>
-            </Content>
-        </div>
+        </>
     );
 }
 
