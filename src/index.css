@@ -165,38 +165,3 @@ span.wave {
    50% { transform: rotate(  0.0deg) }
   100% { transform: rotate(  0.0deg) }
 }
-
-/* dark mode */
-
-/* rules that apply globally */
-body {
-  font-family: system-ui, -apple-system, sans-serif;
-  text-align: center;
-}
-a {
-  text-decoration: none;
-}
-.dark-mode-toggle {
-  cursor: pointer;
-  padding: 1em;
-
-  /* hide toggle until we're sure user has JS enabled */
-  visibility: hidden;
-}
-
-/* theme-specific rules -- you probably only want color-related stuff here */
-/* SCSS makes this a whole lot easier by allowing nesting, but is not required */
-body.light {
-  background-color: #fff;
-  color: #222;
-}
-body.light a {
-  color: #06f;
-}
-body.dark {
-  background-color: #222;
-  color: #fff;
-}
-body.dark a {
-  color: #fe0;
-}

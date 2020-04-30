@@ -15,7 +15,6 @@ import VSCExtensions from './pages/blog/VSCExtensions';
 import Footer from './components/Footer';
 
 
-
 class App extends React.Component {
 
   render(){
