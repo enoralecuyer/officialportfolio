@@ -11,36 +11,39 @@ function Home() {
     return(
         <>
         <Container fluid={true} className="table-of-contents">
-            <Row className="justify-content-center">
-                <Col md={8}>
+            <Row className="justify-content-center" >
+                <Col md={8} >
                     <h1>
-                        Enora Lecuyer
+                        <strong>
+                            Enora Lecuyer
+                        </strong>
                     </h1>
                     <h1>
-                        Front-End Developer
+                        front-end developer
                     </h1>
-                    <h1 style={{ color: 'grey' }}>
-                    based in Orange County <Emoji symbol="🍊" label="tangerine"/> , CA
+                   
+                   <h1 style={{ color: 'grey' }}>
+                        based in Orange County  <span class="wave"><Emoji symbol="🍊" label="tangerine"/></span> , CA
                     </h1>
                     <Row>
                         <a className="icon" href="mailto:enora.lecuyer1@gmail.com"><FaEnvelope /></a>
-                        <a className="icon" href="https://github.com/enoralecuyer"><FaGithub /></a>
-                        <a className="icon" href="https://www.linkedin.com/in/enoralecuyer1/"><FaLinkedin /></a>
+                        <a className="icon" href="https://github.com/enoralecuyer" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+                        <a className="icon" href="https://www.linkedin.com/in/enoralecuyer1/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
                     </Row>
                     <h1 className="home-title">
                         <strong>Projects: </strong>
                     </h1>
-                    <a href="https://www.trilliontreecampaign.org/">
+                    <a href="https://www.trilliontreecampaign.org/" target="_blank" rel="noopener noreferrer">
                         <h1 className="home-project">
                             <Emoji symbol="🌳" label="tree"/> 
-                            The Trillion Tree
+                            The Trillion Tree Campaign
                         </h1>
                     </a>
                     <h4 className="home-project-subtitle">
                         Improving the accessibility of a React Native-based Open Source App.
                     </h4>
                     
-                    <a href="https://store-resort.netlify.app/">
+                    <a href="https://store-resort.netlify.app/" target="_blank" rel="noopener noreferrer">
                         <h1 className="home-project">
                             <Emoji symbol="🏨" label="hotel"/> 
                             W Hotels Resort
@@ -49,7 +52,7 @@ function Home() {
                     <h4 className="home-project-subtitle">
                         React-based hotel generated via Contentful and deployed on Netlify.
                     </h4>
-                    <a href="http://www.enoralecuyer.com/indexcoaching.html">
+                    <a href="http://www.enoralecuyer.com/indexcoaching.html" target="_blank" rel="noopener noreferrer">
                         <h1 className="home-project">
                             <Emoji symbol="🔮" label="crystal ball"/> 
                             Confidence Coaching

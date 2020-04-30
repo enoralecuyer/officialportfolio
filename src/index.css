@@ -84,6 +84,10 @@ h2 {
   margin:0;;
 }
 
+.mobile-spacing {
+  padding-top: 1rem;
+}
+
 /* Home */
 
 .home-project {
@@ -122,6 +126,8 @@ h2 {
   padding-top: 4rem;
   max-width: 740px;
   margin-bottom: 6rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 
@@ -136,72 +142,61 @@ h2 {
   padding: 10px 15px;
 }
 
-.footer {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+.padding {  
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
+/* animated orange */
+span.wave {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
 
-/* Work */
-.col-example{
-  padding: 1rem;
-  padding-bottom: 50px;
-  margin-top: 100px;
+@keyframes wave-animation {
+    0% { transform: rotate(  0.0deg) }
+   10% { transform: rotate(-10.0deg) }
+   20% { transform: rotate( 12.0deg) }
+   30% { transform: rotate(-10.0deg) }
+   40% { transform: rotate(  9.0deg) }
+   50% { transform: rotate(  0.0deg) }
+  100% { transform: rotate(  0.0deg) }
+}
+
+/* dark mode */
+
+/* rules that apply globally */
+body {
+  font-family: system-ui, -apple-system, sans-serif;
   text-align: center;
-  border-right: 50px solid #fc3f3f;
-  border-bottom: 50px solid #4a00d8;
-};
+}
+a {
+  text-decoration: none;
+}
+.dark-mode-toggle {
+  cursor: pointer;
+  padding: 1em;
 
-
-.col-example:hover {
-  border: 2px solid rgb(93, 91, 201);
+  /* hide toggle until we're sure user has JS enabled */
+  visibility: hidden;
 }
 
-.logo-icon {
-  height: 25px;
-  width: auto;
-  margin-left: 5px;
+/* theme-specific rules -- you probably only want color-related stuff here */
+/* SCSS makes this a whole lot easier by allowing nesting, but is not required */
+body.light {
+  background-color: #fff;
+  color: #222;
 }
-
-.border-image {
-  box-shadow: 0 4px 20px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+body.light a {
+  color: #06f;
 }
-
-.animation {
-  animation-duration: 1000ms; 
-  animation-delay: 0ms; 
-  animation-iteration-count: 1; 
-  opacity: 1;
+body.dark {
+  background-color: #222;
+  color: #fff;
 }
-
-.fadeInUp {
-  animation-name: fadeInUp;
-}
-
-/* RESORT */
-
-.resort {
-  padding-top: 100px;
-}
-
-.resort-image {
-  box-shadow:   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-                0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-                0 12.5px 10px rgba(0, 0, 0, 0.06),
-                0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-                0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-                0 100px 80px rgba(0, 0, 0, 0.12);
-  width: 400px;
-  height: auto;
-
-}
-
-.title {
-  padding-bottom: 20px;
-  font-weight: bold;
-}
-
-.title-gold {
-border-bottom: 10px solid gold;
-line-height: 3rem;
+body.dark a {
+  color: #fe0;
 }

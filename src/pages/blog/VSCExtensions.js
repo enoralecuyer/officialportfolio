@@ -24,7 +24,7 @@ function Blog() {
                 <ul>
                     <li>
                         <strong>
-                            <a href="https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2">
+                            <a href="https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2" target="_blank" rel="noopener noreferrer">
                                 Bracket Pair Colorizer 2
                             </a>
                         </strong>
@@ -34,7 +34,7 @@ function Blog() {
                     </p>
                     <li>
                         <strong>
-                            <a href="https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippetsES7">
+                            <a href="https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets" target="_blank" rel="noopener noreferrer">
                                 React/Redux/GraphQL/React-Native snippets
                             </a>
                         </strong>
@@ -44,7 +44,7 @@ function Blog() {
                     </p>
                     <li>
                         <strong>
-                            <a href="https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag">
+                            <a href="https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag" target="_blank" rel="noopener noreferrer">
                                 Highlight Matching Tag
                             </a>
                         </strong>
@@ -54,7 +54,7 @@ function Blog() {
                     </p>
                     <li>
                         <strong>
-                            <a href="https://marketplace.visualstudio.com/items?itemName=Tyriar.lorem-ipsum">
+                            <a href="https://marketplace.visualstudio.com/items?itemName=Tyriar.lorem-ipsum" target="_blank" rel="noopener noreferrer">
                                 Lorem Ipsum
                             </a>
                         </strong>
@@ -64,7 +64,7 @@ function Blog() {
                     </p>
                     <li>
                         <strong>
-                            <a href="https://marketplace.visualstudio.com/items?itemName=sdras.night-owl">
+                            <a href="https://marketplace.visualstudio.com/items?itemName=sdras.night-owl" target="_blank" rel="noopener noreferrer">
                                 Night Owl
                             </a>
                         </strong>

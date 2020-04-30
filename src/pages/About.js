@@ -6,6 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
 function About() {
+
     return(
         <>
             <Container fluid={true}>
@@ -18,15 +19,14 @@ function About() {
                                 Enora Lecuyer lives in Orange County, CA with her wife, and their cat and dog. Originally from France, 
                                 she previously studied Art History, Project Management and Business Coaching.
                             </p>
-                            <p>
+                            <p className="pt-3">
                                 After running two businesses in coaching and pet care, she returned to her deep love of databases and coding.
-                                Enora is currently volunteering on the open source project 1 Trillion Trees to help replant trees around the world.
+                                Enora is currently volunteering on the open source project The Trillion Tree Campaign to help replant trees around the world.
                             </p>
-                            <p>
+                            <p className="pt-3">
                                 When she is not coding and learning about new languages, she is usually found hiking, gardening or playing video
                                 games with her wife. 
                             </p>
-                            
                             <p className="pt-3">
                                 <strong>Skills: </strong>HTML5, CSS3, React, Bootstrap, jQuery, APIs, Gatsby, Contentful, Netlify, Github, Responsive Design, 
                                 Version Control, Testing and Debugging.
@@ -40,10 +40,10 @@ function About() {
                             </p>
                             <p className="pt-3">
                                 <strong>Get in touch: </strong> 
-                                <a href="https://www.linkedin.com/in/enoralecuyer1/">Resume</a>,
+                                <a href="https://www.linkedin.com/in/enoralecuyer1/" target="_blank" rel="noopener noreferrer">Resume</a>,
                                 <a href="mailto:enora.lecuyer1@gmail.com"> Email</a> ,
-                                <a href="https://github.com/enoralecuyer"> GitHub</a>, 
-                                <a href="https://www.linkedin.com/in/enoralecuyer1/"> LinkedIn</a>.
+                                <a href="https://github.com/enoralecuyer" target="_blank" rel="noopener noreferrer"> GitHub</a>, 
+                                <a href="https://www.linkedin.com/in/enoralecuyer1/" target="_blank" rel="noopener noreferrer"> LinkedIn</a>.
                             </p>
                             </div>
                         </Col>
@@ -51,7 +51,7 @@ function About() {
                 </Container>
         </>
     );
-}
 
+}
 
 export default About;
