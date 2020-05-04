@@ -21,18 +21,18 @@ class App extends React.Component {
     return (
     <Router>
       <Container className="p-0" fluid={true}> 
-        <Navbar expand="lg" className="new-nav">
+        <Navbar expand="lg" className="nav-size">
           <Nav>
-            <Link className="nav-purple" to="/"><strong><Emoji symbol="🦔" label="hedgehog"/> Enora Lecuyer</strong></Link>
+            <Link className="nav-style" to="/"><strong><Emoji symbol="🦔" label="hedgehog"/> Enora Lecuyer</strong></Link>
           </Nav>
           {/* border-0 removes border around burger */}
           <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
           <Navbar.Collapse id="navbar=toggle">
             {/* margin-left-auto, sends links of menu to the right */}
             <Nav className="ml-auto">
-              <Link className="nav-purple" to="/"><Emoji symbol="🏡" label="house"/> Home</Link>
-              <Link className="nav-purple" to="/about"><Emoji symbol="👩‍💻 " label="woman"/>About</Link>
-              <Link className="nav-purple" to="/blogindex"><Emoji symbol="📚" label="books"/> Blog</Link>
+              <Link className="nav-style" to="/"><Emoji symbol="🏡" label="house"/> Home</Link>
+              <Link className="nav-style" to="/about"><Emoji symbol="👩‍💻 " label="woman"/>About</Link>
+              <Link className="nav-style" to="/blogindex"><Emoji symbol="📚" label="books"/> Blog</Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
@@ -44,9 +44,7 @@ class App extends React.Component {
         <Route path="/favdevtools" render={() => <FavDevTools /> } />
         <Route path="/vscextensions" render={() => <VSCExtensions /> } />
         
-
         <Footer />
-
       </Container>
     </Router>
     );

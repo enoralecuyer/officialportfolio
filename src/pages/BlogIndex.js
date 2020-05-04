@@ -7,7 +7,6 @@ import Col from 'react-bootstrap/Col';
 
 function BlogIndex() {
     return(
-        <>
         <Container fluid={true} className="table-of-contents">
             <Row className="justify-content-center">
                 <Col md={8}>
@@ -35,7 +34,6 @@ function BlogIndex() {
                 </Col>
             </Row>
         </Container>
-        </>
     );
 }
 

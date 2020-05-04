@@ -17,9 +17,8 @@ a {
 }
 
 h1 {
-  padding-top: 15px;
+  padding-top: 1rem;
 }
-
 
 h2 {
   color: black;
@@ -27,32 +26,44 @@ h2 {
 
 
 /* Nav */
-.new-nav {
+.nav-size {
   font-size: 25px;
 }
 
-.nav-purple {
+.nav-style {
   color: black;
-  padding-left: 15px;
-  padding-top: 15px;
-  padding-right: 20px;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
 }
 
-.nav-purple:hover {
+.nav-style:hover {
   color: #4a00d8;
   text-decoration: none;
-}
-
-/* Hero */
-.new-block {
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 /* Home */
 .home-title {
   padding-top: 8rem;
   margin-bottom: 2rem;
+}
+
+.home-subtitle {
+  color: grey
+}
+
+.home-project {
+  color: black;
+  padding-top: 3rem;
+}
+
+.home-project:hover {
+  color: #4a00d8;
+  text-decoration: none;
+}
+
+.home-project-subtitle {
+  padding-top: 1rem;
 }
 
 /* About */
@@ -79,29 +90,9 @@ h2 {
 }
 
 .no-dot {
-  list-style:none;
-  padding:0;
-  margin:0;;
-}
-
-.mobile-spacing {
-  padding-top: 1rem;
-}
-
-/* Home */
-
-.home-project {
-  color: black;
-  padding-top: 3rem;
-}
-
-.home-project:hover {
-  color: #4a00d8;
-  text-decoration: none;
-}
-
-.home-project-subtitle {
-  padding-top: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* Blog */
@@ -134,12 +125,7 @@ h2 {
 /* Footer */
 .icon {
   font-size: 40px;
-  padding: 10px 15px;
-}
-
-.icon-small {
-  font-size: 30px;
-  padding: 10px 15px;
+  padding: 1rem 1rem;
 }
 
 .padding {  
@@ -147,7 +133,7 @@ h2 {
   padding-right: 1rem;
 }
 
-/* animated orange */
+/* animated orange emoji*/
 span.wave {
   animation-name: wave-animation;
   animation-duration: 2.5s;
