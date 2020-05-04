@@ -58,7 +58,7 @@ function Home() {
                     <h4 className="home-project-subtitle">
                         React-based hotel generated via Contentful and deployed on Netlify.
                     </h4>
-                    <a href="http://www.enoralecuyer.com/indexcoaching.html" target="_blank" rel="noopener noreferrer">
+                    <a href="https://confidencecoaching.netlify.app/" target="_blank" rel="noopener noreferrer">
                         <h1 className="home-project">
                             <Emoji symbol="🔮" label="crystal ball"/> 
                             Confidence Coaching
