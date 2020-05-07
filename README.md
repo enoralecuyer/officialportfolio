@@ -15,8 +15,6 @@ My official portfolio built with React and deployed on Netlify.
 * [React-router-dom](https://www.npmjs.com/package/react-router-dom)
 * [React-bootstrap](https://react-bootstrap.github.io/)
 * [React-icons](https://react-icons.github.io/react-icons/)
-* [Contentful](https://www.contentful.com/)
-* [Netlify](https://app.netlify.com/)
 
 ## Deploy Status Badge
 
