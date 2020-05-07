@@ -11,40 +11,55 @@ function About() {
                 <Container fluid={true}>
                     <Row className="justify-content-center">
                         <Col md={8}>
-                            <h1 className="about-title">
-                                Hi, nice to meet you!
-                            </h1>
-                            <img className="profile" src={profile} alt="profile" />
                             <div className="about-description">
+                                <h1 className="about-title">Hi, nice to meet you!</h1>
                                 <p>
                                     I live in Orange County, CA with my wife, and our cat and dog. Originally from France, 
                                     I previously studied Art History, Project Management and Business Coaching.
                                 </p>
                                 <p className="pt-3">
-                                    After running two businesses in coaching and pet care, I returned to my deep love of databases and coding.
-                                    I am currently volunteering on the open source project The Trillion Tree Campaign to help replant trees around the world.
+                                    After running two businesses in coaching and pet care, I returned to my deep love of databases and coding. 
+                                    {/* I am currently volunteering for the open source project The Trillion Tree Campaign. */}
                                 </p>
                                 <p className="pt-3">
                                     When I am not coding and learning about new languages, I am usually found hiking, gardening or playing video
                                     games with my wife. 
                                 </p>
+                            </div>
+                            <img className="profile" src={profile} alt="profile" />
+                            <div className="about-description">
                                 <p className="pt-3">
                                     <strong>Skills: </strong>
-                                     HTML5, CSS3, React, Bootstrap, jQuery, APIs, Gatsby, Contentful, Netlify, Github, Responsive Design, 
+                                     HTML5, CSS3, JavaScript, React, Redux, NodeJS, Bootstrap, jQuery, REST APIs, Gatsby, Contentful, Netlify, Git, Github, CLI, Responsive Design, 
                                     Version Control, Testing and Debugging.
                                 </p>
-
                                 <p className="pt-3">
-                                    <strong>Education: </strong>
-                                        <li className="no-dot">
-                                            Data Science Professional Certificate Specialization - IBM
+                                    <strong>Certifications: </strong>
+                                    <ul>
+                                        <li>
+                                            The Complete Web Developer in 2020: Zero to Mastery - Andrei Neagoie 
                                         </li>
-                                        <li className="no-dot">
+                                        <li>
                                             Software Product Management Specialization - University of Alberta, Canada
                                         </li>
-                                        <li className="no-dot">
-                                            Master's degree in Art History and Cultural Management - France
+                                        <li>
+                                            Data Science Professional Certificate Specialization - IBM
                                         </li>
+                                    </ul>
+                                </p>
+                                <p className="pt-3">
+                                    <strong>Education: </strong>
+                                    <ul>
+                                        <li>
+                                            Erickson Coaching International - Vancouver, Canada
+                                        </li>
+                                        <li>
+                                            ICCOM Cultural Management Institute - Paris, France
+                                        </li>
+                                        <li>
+                                            Master's degree in Art History - Rennes, France
+                                        </li>
+                                    </ul>
                                 </p>
                                 <p className="pt-3">
                                     <strong>Get in touch: </strong> 
