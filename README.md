@@ -1,6 +1,6 @@
 # My Portfolio
 
-My official portfolio built with React and deployed on Netlify
+My official portfolio built with React and deployed on Netlify.
 
 ## View Demo
 
