@@ -26,4 +26,4 @@ Enora Lecuyer
 
 ## License 
 
-The content of this project itself is licensed under the [Creative Commons BY-NC-ND 2.0 license](https://creativecommons.org/licenses/by-nc-nd/2.0/), and the underlying source code used to format and display that content is licensed under the [MIT license](https://github.com/enoralecuyer/officialportfolio/blob/master/LICENSE).
+The content of this project itself is licensed under the [Creative Commons BY-NC-ND 4.0 license](https://creativecommons.org/licenses/by-nc-nd/4.0/), and the underlying source code used to format and display that content is licensed under the [MIT license](https://github.com/enoralecuyer/officialportfolio/blob/master/LICENSE).
