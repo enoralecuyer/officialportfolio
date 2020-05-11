@@ -22,4 +22,8 @@ My official portfolio built with React and deployed on Netlify.
 
 ## Author
 
-**Enora Lecuyer** 
+Enora Lecuyer
+
+## License 
+
+MIT License
