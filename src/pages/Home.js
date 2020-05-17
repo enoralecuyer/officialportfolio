@@ -49,7 +49,7 @@ function Home() {
                         Improving the accessibility of a React Native based Open Source App.
                     </h4>
                     
-                    <a href="https://store-resort.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://w-hotels-resort.netlify.app/" target="_blank" rel="noopener noreferrer">
                         <h1 className="home-project">
                             <Emoji symbol="🏨" label="hotel"/> 
                             W Hotels Resort
