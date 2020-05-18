@@ -24,13 +24,13 @@ function Home() {
                         based in Orange County  <span class="wave"><Emoji symbol="🍊" label="tangerine"/></span> , CA
                     </h1>
                     <Row>
-                        <a className="icon" href="mailto:enora.lecuyer1@gmail.com">
+                        <a className="icon" href="mailto:enora.lecuyer1@gmail.com" title="Email Me">
                             <FaEnvelope />
                         </a>
-                        <a className="icon" href="https://github.com/enoralecuyer" target="_blank" rel="noopener noreferrer">
+                        <a className="icon" href="https://github.com/enoralecuyer" target="_blank" rel="noopener noreferrer" title="GitHub">
                             <FaGithub />
                         </a>
-                        <a className="icon" href="https://www.linkedin.com/in/enoralecuyer1/" target="_blank" rel="noopener noreferrer">
+                        <a className="icon" href="https://www.linkedin.com/in/enoralecuyer1/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
                             <FaLinkedin />
                         </a>
                     </Row>

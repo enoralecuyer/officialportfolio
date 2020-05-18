@@ -15,9 +15,9 @@ function Footer() {
                     <h3>&copy; 2020 Enora Lecuyer - Front-end developer</h3>
                 </Row>
                 <Row className="justify-content-center">
-                    <a className="icon" href="mailto:enora.lecuyer1@gmail.com"><FaEnvelope /></a>
-                    <a className="icon" href="https://github.com/enoralecuyer" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-                    <a className="icon" href="https://www.linkedin.com/in/enoralecuyer1/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+                    <a className="icon" href="mailto:enora.lecuyer1@gmail.com" title="Email Me"><FaEnvelope /></a>
+                    <a className="icon" href="https://github.com/enoralecuyer" target="_blank" rel="noopener noreferrer" title="GitHub"><FaGithub /></a>
+                    <a className="icon" href="https://www.linkedin.com/in/enoralecuyer1/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><FaLinkedin /></a>
                 </Row>
             </Container>
         </footer>
