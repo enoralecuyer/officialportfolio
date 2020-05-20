@@ -39,34 +39,57 @@ function Home() {
                             Projects: 
                         </strong>
                     </h1>
-                    <a href="https://www.trilliontreecampaign.org/" target="_blank" rel="noopener noreferrer">
+
+                    <a href="https://face-recognition-web.netlify.app/" target="_blank" rel="noopener noreferrer">
                         <h1 className="home-project">
-                            <Emoji symbol="🌳" label="tree"/> 
-                            The Trillion Tree Campaign
+                            <Emoji symbol="🔲 " label="square"/> 
+                            Face Recognition App
                         </h1>
                     </a>
                     <h4 className="home-project-subtitle">
-                        Improving the accessibility of a React Native based Open Source App.
+                        Upload a photo of a person and see their face being detected. Built with Clarifai API.
                     </h4>
-                    
+
+                    <a href="https://cat-robot-redux.netlify.app/" target="_blank" rel="noopener noreferrer">
+                        <h1 className="home-project">
+                            <Emoji symbol="🐈 " label="cat"/> 
+                            Cat Robot App
+                        </h1>
+                    </a>
+                    <h4 className="home-project-subtitle">
+                        Searchable cat robot gallery app in React + Redux with data fetched from two APIs. 
+                    </h4>
+
                     <a href="https://w-hotels-resort.netlify.app/" target="_blank" rel="noopener noreferrer">
                         <h1 className="home-project">
-                            <Emoji symbol="🏨" label="hotel"/> 
+                            <Emoji symbol="🏨 " label="hotel"/> 
                             W Hotels Resort
                         </h1>
                     </a>
                     <h4 className="home-project-subtitle">
-                        React-based hotel generated via Contentful and deployed on Netlify.
+                        Resort website in React and Contentful with search options for price, size and type of room. 
                     </h4>
+
+                    <a href="https://enoralecuyer.github.io/artreviews/" target="_blank" rel="noopener noreferrer">
+                        <h1 className="home-project">
+                            <Emoji symbol="🍮 " label="pudding"/> 
+                            Enora's Art Reviews
+                        </h1>
+                    </a>
+                    <h4 className="home-project-subtitle">
+                        Personal website with hundreds of reviews of books, games and movies in HTML5 and CSS3.
+                    </h4>
+
                     <a href="https://confidencecoaching.netlify.app/" target="_blank" rel="noopener noreferrer">
                         <h1 className="home-project">
-                            <Emoji symbol="🔮" label="crystal ball"/> 
+                            <Emoji symbol="🔮 " label="crystal ball"/> 
                             Confidence Coaching
                         </h1>
                     </a>
                     <h4 className="home-project-subtitle">
-                        Built with Bulma, Bootstrap and the classic HTML5 and CSS3.
+                        My coaching business website built with Bulma, HTML4, CSS3 and Google Analytics.
                     </h4>
+
                 </Col>
             </Row>
         </Container>

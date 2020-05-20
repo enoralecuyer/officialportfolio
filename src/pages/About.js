@@ -16,10 +16,7 @@ function About() {
                                 <p>
                                     I live in Orange County, CA with my wife, and our cat and dog. Originally from France, 
                                     I previously studied Art History, Project Management and Business Coaching.
-                                </p>
-                                <p className="pt-3">
                                     After running two businesses in coaching and pet care, I returned to my deep love of databases and coding. 
-                                    {/* I am currently volunteering for the open source project The Trillion Tree Campaign. */}
                                 </p>
                                 <p className="pt-3">
                                     When I am not coding and learning about new languages, I am usually found hiking, gardening or playing video
