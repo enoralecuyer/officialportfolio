@@ -60,7 +60,7 @@ function About() {
                                 </p>
                                 <p className="pt-3">
                                     <strong>Get in touch: </strong> 
-                                    <a href="https://www.linkedin.com/in/enoralecuyer1/" target="_blank" rel="noopener noreferrer">Resume</a>,
+                                    <a href="https://drive.google.com/file/d/1SZ9jgkTYGcFr3dOvC77NYFL6DGOZ-Cmw/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>,
                                     <a href="mailto:enora.lecuyer1@gmail.com"> Email</a> ,
                                     <a href="https://github.com/enoralecuyer" target="_blank" rel="noopener noreferrer"> GitHub</a>, 
                                     <a href="https://www.linkedin.com/in/enoralecuyer1/" target="_blank" rel="noopener noreferrer"> LinkedIn</a>.

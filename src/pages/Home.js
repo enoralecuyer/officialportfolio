@@ -87,7 +87,7 @@ function Home() {
                         </h1>
                     </a>
                     <h4 className="home-project-subtitle">
-                        My coaching business website built with Bulma, HTML4, CSS3 and Google Analytics.
+                        My coaching business website built with Bulma, HTML5, CSS3 and Google Analytics.
                     </h4>
 
                 </Col>
