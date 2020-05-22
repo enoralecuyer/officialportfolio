@@ -16,7 +16,7 @@ function About() {
                                 <p>
                                     I live in Orange County, CA with my wife, and our cat and dog. Originally from France, 
                                     I previously studied Art History, Project Management and Business Coaching.
-                                    After running two businesses in coaching and pet care, I returned to my deep love of databases and coding. 
+                                    After running a confidence coaching business, I returned to my deep love of databases and coding. 
                                 </p>
                                 <p className="pt-3">
                                     When I am not coding and learning about new languages, I am usually found hiking, gardening or playing video
@@ -28,7 +28,7 @@ function About() {
                                 <p className="pt-3">
                                     <strong>Skills: </strong>
                                      HTML5, CSS3, JavaScript, React, Redux, NodeJS, Bootstrap, jQuery, REST APIs, Gatsby, Contentful, Netlify, Git, Github, CLI, Responsive Design, 
-                                    Version Control, Testing and Debugging.
+                                     Version Control, Testing and Debugging.
                                 </p>
                                 <p className="pt-3">
                                     <strong>Certifications: </strong>
