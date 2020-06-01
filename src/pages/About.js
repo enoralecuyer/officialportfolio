@@ -29,9 +29,9 @@ function About() {
           <div className="about-description">
             <p className="pt-3">
               <strong>Skills: </strong>
-              HTML5, CSS3, JavaScript, React, Redux, NodeJS, Bootstrap, jQuery,
-              REST APIs, Gatsby, Contentful, Netlify, Git, Github, CLI,
-              Responsive Design, Version Control, Testing and Debugging.
+              HTML5, CSS3, JavaScript, React, Redux, Bootstrap, Tachyons, Bulma,
+              Rest APIs, Node, Express, Python, DB2, Gatsby, Contentful,
+              Netlify, Git, Version Control, Agile, Scrum, Project Management
             </p>
             <p className="pt-3">
               <strong>Certifications: </strong>

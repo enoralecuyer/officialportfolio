@@ -53,7 +53,6 @@ function Home() {
           <h1 className="home-title">
             <strong>Projects:</strong>
           </h1>
-
           <a
             href="https://face-recognition-web.netlify.app/"
             target="_blank"
@@ -68,22 +67,6 @@ function Home() {
             Upload a photo of a person and see their face being detected. Built
             with Clarifai API.
           </h4>
-
-          <a
-            href="https://cat-robot-redux.netlify.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h1 className="home-project">
-              <Emoji symbol="🐈 " label="cat" />
-              Cat Robot App
-            </h1>
-          </a>
-          <h4 className="home-project-subtitle">
-            Searchable cat robot gallery app in React + Redux with data fetched
-            from two APIs.
-          </h4>
-
           <a
             href="https://w-hotels-resort.netlify.app/"
             target="_blank"
@@ -97,7 +80,6 @@ function Home() {
             Resort website in React and Contentful with search options for
             price, size and type of room.
           </h4>
-
           <a
             href="https://enoralecuyer.github.io/artreviews/"
             target="_blank"
@@ -112,7 +94,6 @@ function Home() {
             Personal website with hundreds of reviews of books, games and movies
             in HTML5 and CSS3.
           </h4>
-
           <a
             href="https://confidencecoaching.netlify.app/"
             target="_blank"
