@@ -44,9 +44,7 @@ function About() {
                   Software Product Management Specialization - University of
                   Alberta, Canada
                 </li>
-                <li>
-                  Data Science Professional Certificate Specialization - IBM
-                </li>
+                <li>Data Science Professional Certificate - IBM</li>
               </ul>
             </p>
             <p className="pt-3">
@@ -60,7 +58,7 @@ function About() {
             <p className="pt-3">
               <strong>Get in touch: </strong>
               <a
-                href="https://drive.google.com/file/d/1G1H87v6jQMUUT5L42KIkQ7sGYbfDD2Ak/view?usp=sharing"
+                href="https://drive.google.com/file/d/15XWS344J4H31qoAdlRDlR2gKrT6H50In/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
