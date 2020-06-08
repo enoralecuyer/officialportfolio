@@ -1,5 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Link,
+  NavLink,
+} from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Emoji from "./components/Emoji";
 import Navbar from "react-bootstrap/Navbar";
@@ -21,7 +26,7 @@ class App extends React.Component {
         <Container className="p-0" fluid={true}>
           <Navbar expand="lg" className="nav-size">
             <Nav>
-              <Link className="nav-style" to="/">
+              <Link className="nav-style" to="/home">
                 <strong>
                   <Emoji symbol="🦔" label="hedgehog" /> Enora Lecuyer
                 </strong>
@@ -32,21 +37,39 @@ class App extends React.Component {
             <Navbar.Collapse id="navbar=toggle">
               {/* margin-left-auto, sends links of menu to the right */}
               <Nav className="ml-auto">
-                <Link className="nav-style" to="/">
+                <NavLink
+                  className="nav-style"
+                  to="/home"
+                  activeStyle={{
+                    color: "#4a00d8",
+                  }}
+                >
                   <Emoji symbol="🏡" label="house" /> Home
-                </Link>
-                <Link className="nav-style" to="/about">
+                </NavLink>
+                <NavLink
+                  className="nav-style"
+                  to="/about"
+                  activeStyle={{
+                    color: "#4a00d8",
+                  }}
+                >
                   <Emoji symbol="👩‍💻 " label="woman" />
                   About
-                </Link>
-                <Link className="nav-style" to="/blogindex">
+                </NavLink>
+                <NavLink
+                  className="nav-style"
+                  to="/blogindex"
+                  activeStyle={{
+                    color: "#4a00d8",
+                  }}
+                >
                   <Emoji symbol="📚" label="books" /> Blog
-                </Link>
+                </NavLink>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
 
-          <Route path="/" exact render={() => <Home />} />
+          <Route path="/home" exact render={() => <Home />} />
           <Route path="/about" render={() => <About />} />
           <Route path="/blogindex" render={() => <BlogIndex />} />
           <Route path="/womenofreact" render={() => <WomenOfReact />} />

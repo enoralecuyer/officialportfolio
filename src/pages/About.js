@@ -37,14 +37,13 @@ function About() {
               <strong>Certifications: </strong>
               <ul>
                 <li>
-                  The Complete Web Developer in 2020: Zero to Mastery - Andrei
-                  Neagoie
+                  The Complete Web Developer in 2020 - Udemy, Andrei Neagoie
                 </li>
                 <li>
-                  Software Product Management Specialization - University of
-                  Alberta, Canada
+                  Software Product Management Specialization - Coursera,
+                  University of Alberta, Canada
                 </li>
-                <li>Data Science Professional Certificate - IBM</li>
+                <li>Data Science Professional Certificate - Coursera, IBM</li>
               </ul>
             </p>
             <p className="pt-3">
