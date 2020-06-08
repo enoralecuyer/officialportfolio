@@ -37,18 +37,6 @@ function Blog() {
             <li>
               <strong>
                 <a
-                  href="https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  React/Redux/GraphQL/React-Native snippets
-                </a>
-              </strong>
-            </li>
-            <p>Writes snippets instead of the full text.</p>
-            <li>
-              <strong>
-                <a
                   href="https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -58,6 +46,18 @@ function Blog() {
               </strong>
             </li>
             <p>Highlights matching tags.</p>
+            <li>
+              <strong>
+                <a
+                  href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live Server
+                </a>
+              </strong>
+            </li>
+            <p>Local development server with live reload.</p>
             <li>
               <strong>
                 <a
@@ -82,6 +82,42 @@ function Blog() {
               </strong>
             </li>
             <p>Favorite night theme.</p>
+            <li>
+              <strong>
+                <a
+                  href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Prettier
+                </a>
+              </strong>
+            </li>
+            <p>Opinionated code formatter.</p>
+            <li>
+              <strong>
+                <a
+                  href="https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  React/Redux/GraphQL/React-Native snippets
+                </a>
+              </strong>
+            </li>
+            <p>Writes snippets instead of the full text.</p>
+            <li>
+              <strong>
+                <a
+                  href="https://marketplace.visualstudio.com/items?itemName=msjsdiag.vscode-react-native"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  React Native Tools
+                </a>
+              </strong>
+            </li>
+            <p>Debugs code and quickly runs react-native commands.</p>
           </ul>
         </Col>
       </Row>

@@ -50,9 +50,18 @@ function About() {
             <p className="pt-3">
               <strong>Education: </strong>
               <ul>
-                <li>Erickson Coaching International - Vancouver, Canada</li>
-                <li>ICCOM Cultural Management Institute - Paris, France</li>
-                <li>Master's degree in Art History - Rennes, France</li>
+                <li>
+                  Associate Certified Coach, ACC - Erickson Coaching
+                  International, Vancouver, Canada
+                </li>
+                <li>
+                  Master’s Degree in Cultural Management - ICCOM Institute,
+                  Paris, France
+                </li>
+                <li>
+                  Master's degree in Art History - Université Rennes II, Rennes,
+                  France
+                </li>
               </ul>
             </p>
             <p className="pt-3">
