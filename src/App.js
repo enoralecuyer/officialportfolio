@@ -26,7 +26,7 @@ class App extends React.Component {
         <Container className="p-0" fluid={true}>
           <Navbar expand="lg" className="nav-size">
             <Nav>
-              <Link className="nav-style" to="/home">
+              <Link className="nav-style" to="/">
                 <strong>
                   <Emoji symbol="🦔" label="hedgehog" /> Enora Lecuyer
                 </strong>
@@ -39,7 +39,7 @@ class App extends React.Component {
               <Nav className="ml-auto">
                 <NavLink
                   className="nav-style"
-                  to="/home"
+                  to="/"
                   activeStyle={{
                     color: "#4a00d8",
                   }}
