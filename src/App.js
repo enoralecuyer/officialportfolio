@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Route,
-  Link,
-  NavLink,
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Emoji from "./components/Emoji";
 import Navbar from "react-bootstrap/Navbar";
@@ -37,39 +32,21 @@ class App extends React.Component {
             <Navbar.Collapse id="navbar=toggle">
               {/* margin-left-auto, sends links of menu to the right */}
               <Nav className="ml-auto">
-                <NavLink
-                  className="nav-style"
-                  to="/"
-                  activeStyle={{
-                    color: "#4a00d8",
-                  }}
-                >
+                <Link className="nav-style" to="/">
                   <Emoji symbol="🏡" label="house" /> Home
-                </NavLink>
-                <NavLink
-                  className="nav-style"
-                  to="/about"
-                  activeStyle={{
-                    color: "#4a00d8",
-                  }}
-                >
+                </Link>
+                <Link className="nav-style" to="/about">
                   <Emoji symbol="👩‍💻 " label="woman" />
                   About
-                </NavLink>
-                <NavLink
-                  className="nav-style"
-                  to="/blogindex"
-                  activeStyle={{
-                    color: "#4a00d8",
-                  }}
-                >
+                </Link>
+                <Link className="nav-style" to="/blogindex">
                   <Emoji symbol="📚" label="books" /> Blog
-                </NavLink>
+                </Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
 
-          <Route path="/home" exact render={() => <Home />} />
+          <Route path="/" exact render={() => <Home />} />
           <Route path="/about" render={() => <About />} />
           <Route path="/blogindex" render={() => <BlogIndex />} />
           <Route path="/womenofreact" render={() => <WomenOfReact />} />
