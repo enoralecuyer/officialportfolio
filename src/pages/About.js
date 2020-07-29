@@ -31,6 +31,8 @@ function About() {
               HTML5, CSS3, JavaScript, React, Redux, Bootstrap, Tachyons, Bulma,
               Rest APIs, Node, Express, Contentful, Netlify, Git, Version
               Control, Agile, Scrum, Project Management, Trello, Jira.
+            </p>
+            <p className="pt-3">
               <strong>Soft Skills: </strong>
               Positive attitude, empathy, clear communication, active listening,
               conflict resolution, self-control, sense of humor.
