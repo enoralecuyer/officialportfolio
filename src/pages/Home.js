@@ -15,9 +15,9 @@ function Home() {
           <h1>
             <strong>Hi, I'm Enora!</strong>
           </h1>
-          <h1>I create websites and transform CX</h1>
+          <h1>I create websites and transform CX and customer success</h1>
           <h1 className="home-subtitle">
-            based in Orange County{" "}
+            remotely from Orange County{" "}
             <span class="wave">
               <Emoji symbol="🍊" label="tangerine" />
             </span>{" "}
