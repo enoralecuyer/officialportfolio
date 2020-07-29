@@ -15,9 +15,9 @@ function Home() {
           <h1>
             <strong>Hi, I'm Enora!</strong>
           </h1>
-          <h1>I'm a front-end developer</h1>
+          <h1>I create websites and I transform CX.</h1>
           <h1 className="home-subtitle">
-            based in Orange County{" "}
+            I am based in Orange County{" "}
             <span class="wave">
               <Emoji symbol="🍊" label="tangerine" />
             </span>{" "}
@@ -79,20 +79,6 @@ function Home() {
           <h4 className="home-project-subtitle">
             Resort website in React and Contentful with search options for
             price, size and type of room.
-          </h4>
-          <a
-            href="https://enoralecuyer.github.io/artreviews/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h1 className="home-project">
-              <Emoji symbol="🍮 " label="pudding" />
-              Enora's Art Reviews
-            </h1>
-          </a>
-          <h4 className="home-project-subtitle">
-            Personal website with hundreds of reviews of books, games and movies
-            in HTML5 and CSS3.
           </h4>
           <a
             href="https://confidencecoaching.netlify.app/"
