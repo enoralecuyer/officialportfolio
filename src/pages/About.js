@@ -44,8 +44,8 @@ function About() {
                   The Complete Web Developer in 2020 - Udemy, Andrei Neagoie
                 </li>
                 <li>
-                  Software Product Management Specialization - Coursera,
-                  University of Alberta, Canada
+                  Software Product Management Specialization - University of
+                  Alberta, Canada
                 </li>
                 <li>Data Science Professional Certificate - Coursera, IBM</li>
               </ul>
