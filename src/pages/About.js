@@ -16,12 +16,13 @@ function About() {
               I live in Orange County, CA with my wife, and our cat and dog.
               Originally from France, I previously studied Art History, Project
               Management and Business Coaching. After running a confidence
-              coaching business, I returned to my deep love of CX, customer
-              success and coding.
+              coaching business, I returned to my deep love of databases and
+              coding.
             </p>
             <p className="pt-3">
-              When I am not coding or learning new languages, I am usually found
-              hiking, gardening or playing video games with my wife.
+              When I am not coding and learning about new languages, I am
+              usually found hiking, gardening or playing video games with my
+              wife.
             </p>
           </div>
           <img className="profile" src={profile} alt="profile" />
@@ -35,7 +36,7 @@ function About() {
             <p className="pt-3">
               <strong>Soft Skills: </strong>
               Positive attitude, empathy, clear communication, active listening,
-              conflict resolution, self-control, sense of humor.
+              conflict resolution, sense of humor.
             </p>
             <p className="pt-3">
               <strong>Certifications: </strong>
