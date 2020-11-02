@@ -16,7 +16,7 @@ function About() {
               I live in Orange County, CA with my wife, and our cat and dog.
               Originally from France, I previously studied Art History, Project
               Management and Business Coaching. After running a confidence
-              coaching business, I returned to my deep love of databases and
+              coaching business, I returned to my deep love of IT support and
               coding.
             </p>
             <p className="pt-3">
@@ -27,20 +27,32 @@ function About() {
           </div>
           <img className="profile" src={profile} alt="profile" />
           <div className="about-description">
+          <p className="pt-3">
+              <strong>IT Support Skills: </strong>
+              Basic computer architecture, Operating systems (Windows, Linux, Mac), Remote connection 
+              and virtual machines, Computer networking, Software management, Troubleshooting, Customer 
+              service, Routing concepts, VPNs and proxies, Permissioning, Package and software management, 
+              Process management, Resource monitoring, Systems administration, Configuration, Centralized 
+              management, Implementing/managing directory services, Data management and recovery, IT security, 
+              Cryptology/encryption, Hashing, Network security
+            </p>
             <p className="pt-3">
-              <strong>Tech Skills: </strong>
+              <strong>Dev Skills: </strong>
               HTML5, CSS3, JavaScript, React, Redux, Bootstrap, Tachyons, Bulma,
               Rest APIs, Node, Express, Contentful, Netlify, Git, Version
-              Control, Agile, Scrum, Project Management, Trello, Jira.
+              Control.
             </p>
             <p className="pt-3">
               <strong>Soft Skills: </strong>
-              Positive attitude, empathy, clear communication, active listening,
+              Positive attitude, empathy, clear communication, customer service, active listening,
               conflict resolution, sense of humor.
             </p>
             <p className="pt-3">
               <strong>Certifications: </strong>
               <ul>
+                <li>
+                  Google IT Support Professional Certification - Coursera
+                </li>
                 <li>
                   The Complete Web Developer in 2020 - Udemy, Andrei Neagoie
                 </li>
