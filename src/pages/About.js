@@ -44,7 +44,7 @@ function About() {
             </p>
             <p className="pt-3">
               <strong>Soft Skills: </strong>
-              Positive attitude, empathy, clear communication, customer service, active listening,
+              Positive attitude, customer service, clear communication, , active listening,
               conflict resolution, sense of humor.
             </p>
             <p className="pt-3">
