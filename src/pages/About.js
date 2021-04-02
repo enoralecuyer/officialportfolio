@@ -27,13 +27,13 @@ function About() {
           </div>
           <img className="profile" src={profile} alt="profile" />
           <div className="about-description">
-          <p className="pt-3">
+            <p className="pt-3">
               <strong>IT Support Skills: </strong>
-              Basic computer architecture, Operating systems (Windows, Linux, Mac), Remote connection 
-              and virtual machines, Computer networking, Software management, Troubleshooting, Customer 
-              service, Routing concepts, VPNs and proxies, Permissioning, Package and software management, 
-              Process management, Resource monitoring, Systems administration, Configuration, Centralized 
-              management, Implementing/managing directory services, Data management and recovery, IT security, 
+              Basic computer architecture, Operating systems (Windows, Linux, Mac), Remote connection
+              and virtual machines, Computer networking, Software management, Troubleshooting, Customer
+              service, Routing concepts, VPNs and proxies, Permissioning, Package and software management,
+              Process management, Resource monitoring, Systems administration, Configuration, Centralized
+              management, Implementing/managing directory services, Data management and recovery, IT security,
               Cryptology/encryption, Hashing, Network security
             </p>
             <p className="pt-3">
@@ -44,12 +44,15 @@ function About() {
             </p>
             <p className="pt-3">
               <strong>Soft Skills: </strong>
-              Positive attitude, customer service, clear communication, , active listening,
+              Positive attitude, customer service, clear communication, active listening,
               conflict resolution, sense of humor.
             </p>
             <p className="pt-3">
               <strong>Certifications: </strong>
               <ul>
+                <li>
+                  SQL Certification - SoloLearn
+                </li>
                 <li>
                   Google IT Support Professional Certification - Coursera
                 </li>
