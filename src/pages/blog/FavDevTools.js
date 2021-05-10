@@ -16,7 +16,7 @@ function Blog() {
           <p>April 22, 2020</p>
           <p>
             Over the years, I've accumulated quite a few useful tools and
-            resources for programmers. It's time to organize it and share it
+            resources for programmers. It's time to organize them and share them
             all!
           </p>
 
