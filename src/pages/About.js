@@ -15,9 +15,9 @@ function About() {
             <p>
               I live in Orange County, CA with my wife, and our cat and dog.
               Originally from France, I previously studied Art History, Project
-              Management and Business Coaching. After running a confidence
-              coaching business, I returned to my deep love of IT support and
-              coding.
+              Management and Business Coaching. After running a coaching business,
+              I joined the fitness software company Daxko where I delivered the best
+              possible experience to clients in IT and accounting support.
             </p>
             <p className="pt-3">
               When I am not coding and learning about new languages, I am
@@ -40,7 +40,7 @@ function About() {
               <strong>Dev Skills: </strong>
               HTML5, CSS3, JavaScript, React, Redux, Bootstrap, Tachyons, Bulma,
               Rest APIs, Node, Express, Contentful, Netlify, Git, Version
-              Control.
+              Control, Powershell.
             </p>
             <p className="pt-3">
               <strong>Soft Skills: </strong>
