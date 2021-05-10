@@ -74,7 +74,7 @@ function Home() {
           >
             <h1 className="home-project">
               <Emoji symbol="🐈 " label="cat" />
-              Cats Gallery
+              Cat Gallery
             </h1>
           </a>
           <h4 className="home-project-subtitle">
@@ -119,7 +119,7 @@ function Home() {
             </h1>
           </a>
           <h4 className="home-project-subtitle">
-            Mini game in the style of a Choose Your Own Adventure book, written in HTML5, CSS3 and JS.
+            Minigame in the style of a Choose Your Own Adventure book, written in HTML5, CSS3 and JS.
           </h4>
         </Col>
       </Row>
