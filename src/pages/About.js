@@ -39,7 +39,7 @@ function About() {
             <p className="pt-3">
               <strong>Dev Skills: </strong>
               HTML5, CSS3, JavaScript, React, Redux, Bootstrap, Tachyons, Bulma,
-              Rest APIs, Node, Express, Contentful, Netlify, Git, Version
+              Rest APIs, Node, Express, Contentful, Netlify, SQL, Git, Version
               Control, Powershell.
             </p>
             <p className="pt-3">
