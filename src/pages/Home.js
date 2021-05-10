@@ -74,12 +74,12 @@ function Home() {
           >
             <h1 className="home-project">
               <Emoji symbol="🐈 " label="cat" />
-              Cat Robot App
+              Cats Gallery
             </h1>
           </a>
           <h4 className="home-project-subtitle">
             Gallery of cats with names and images automatically generated
-            from API and json placeholders. Built with React + Redux.
+            from an API and json placeholders. Built with React + Redux.
           </h4>
           <a
             href="https://w-hotels-resort.netlify.app/"
@@ -101,12 +101,25 @@ function Home() {
           >
             <h1 className="home-project">
               <Emoji symbol="🔮 " label="crystal ball" />
-              Confidence Coaching
+              Coaching Business Porfolio
             </h1>
           </a>
           <h4 className="home-project-subtitle">
-            My coaching business website built with Bulma, HTML5, CSS3 and
+            My previous coaching business website built with Bulma, HTML5, CSS3 and
             Google Analytics.
+          </h4>
+          <a
+            href="https://enoralecuyer.github.io/textadventure/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h1 className="home-project">
+              <Emoji symbol="⚔️ " label="cat" />
+              Choose Your Own Adventure
+            </h1>
+          </a>
+          <h4 className="home-project-subtitle">
+            Mini game in a style of a Choose Your Own Adventure book, written in HTML5, CSS3 and JS.
           </h4>
         </Col>
       </Row>
