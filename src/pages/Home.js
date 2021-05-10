@@ -68,6 +68,20 @@ function Home() {
             with Clarifai API.
           </h4>
           <a
+            href="https://cat-robot-redux.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h1 className="home-project">
+              <Emoji symbol="🐈 " label="cat" />
+              Cat Robot App
+            </h1>
+          </a>
+          <h4 className="home-project-subtitle">
+            Gallery of cats with names and images automatically generated
+            from API and json placeholders. Built with React + Redux.
+          </h4>
+          <a
             href="https://w-hotels-resort.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
