@@ -92,7 +92,7 @@ function About() {
               >
                 Resume
               </a>
-              ,<a href="mailto:enora.lecuyer1@gmail.com"> Email</a> ,
+              ,<a href="mailto:enora.lecuyer1@gmail.com"> Email</a>,
               <a
                 href="https://github.com/enoralecuyer"
                 target="_blank"
