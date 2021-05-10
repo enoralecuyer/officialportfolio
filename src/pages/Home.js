@@ -101,7 +101,7 @@ function Home() {
           >
             <h1 className="home-project">
               <Emoji symbol="🔮 " label="crystal ball" />
-              Coaching Business Porfolio
+              Coaching Business Portfolio
             </h1>
           </a>
           <h4 className="home-project-subtitle">
