@@ -64,7 +64,7 @@ function Home() {
             </h1>
           </a>
           <h4 className="home-project-subtitle">
-            Upload a photo of a person and see their face being detected. Built
+            Upload the photo of a person and see their face being detected. Built
             with Clarifai API.
           </h4>
           <a
