@@ -10,13 +10,13 @@ function BlogIndex() {
     <Container fluid={true} className="table-of-contents">
       <Row className="justify-content-center">
         <Col md={8}>
-          <Link to="/Emmet">
+          {/* <Link to="/Emmet">
             <h1 className="blog-title">
               <Emoji symbol="🌱 " label="seedling" />
               How to use Emmet shortcuts in Visual Studio Code?
             </h1>
             <p>May 11, 2021</p>
-          </Link>
+          </Link> */}
           <Link to="/WomenOfReact">
             <h1 className="blog-title">
               <Emoji symbol="⚛️ " label="woman technologist react" />
