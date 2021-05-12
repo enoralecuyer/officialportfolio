@@ -52,7 +52,7 @@ function About() {
                   Google IT Support Professional Certification - Coursera
                 </li>
                 <li>
-                  The Complete Web Developer in 2020 - Udemy, Andrei Neagoie
+                  The Complete Web Developer in 2021 - Udemy, Andrei Neagoie
                 </li>
                 <li>
                   Software Product Management Specialization - University of
