@@ -12,42 +12,37 @@ function About() {
         <Col md={8}>
           <div className="about-description">
             <h1 className="about-title">Hi, nice to meet you!</h1>
+            <img className="profile" src={profile} alt="profile" />
             <p>
-              I live in Orange County, CA with my wife, and our cat and dog.
-              Originally from France, I previously studied Art History, Project
-              Management and Business Coaching. After running a coaching business,
-              I joined the fitness software company Daxko where I delivered the best
-              possible experience to clients in IT and accounting support.
+              Born and raised in France, I now live in Southern California with my wife and our dog
+              and cat. I have a professional background in art history, project management, and business
+              coaching. After running a coaching business, I joined the customer service field where I
+              delivered the best possible experience to clients in IT and accounting support. Today I
+              am pursuing my love of software engineering.
             </p>
-            <p className="pt-3">
-              When I am not coding and learning about new languages, I am
-              usually found hiking, gardening or playing video games with my
-              wife.
+            <p>
+              When I am not coding and learning new languages, I am usually found hiking, gardening
+              or playing video games with my wife.
             </p>
-          </div>
-          <img className="profile" src={profile} alt="profile" />
-          <div className="about-description">
-            <p className="pt-3">
-              <strong>IT Support Skills: </strong>
+            <p className="pt-3"><strong>IT Support Skills: </strong>
               Basic computer architecture, Operating systems (Windows, Linux, Mac), Remote connection
               and virtual machines, Computer networking, Software management, Troubleshooting, Customer
               service, Routing concepts, VPNs and proxies, Permissioning, Package and software management,
               Process management, Resource monitoring, Systems administration, Configuration, Centralized
               management, Implementing/managing directory services, Data management and recovery, IT security,
-              Cryptology/encryption, Hashing, Network security
-            </p>
-            <p className="pt-3">
+              Cryptology/encryption, Hashing, Network security </p>
+            <p>
               <strong>Dev Skills: </strong>
               HTML5, CSS3, JavaScript, React, Redux, Bootstrap, Tachyons, Bulma,
               Rest APIs, Node, Express, Contentful, Netlify, SQL, Git, Version
               Control, Powershell.
             </p>
-            <p className="pt-3">
+            <p>
               <strong>Soft Skills: </strong>
               Positive attitude, customer service, clear communication, active listening,
               conflict resolution, sense of humor.
             </p>
-            <p className="pt-3">
+            <p>
               <strong>Certifications: </strong>
               <ul>
                 <li>
@@ -66,7 +61,7 @@ function About() {
                 <li>Data Science Professional Certificate - Coursera, IBM</li>
               </ul>
             </p>
-            <p className="pt-3">
+            <p>
               <strong>Education: </strong>
               <ul>
                 <li>
@@ -83,7 +78,7 @@ function About() {
                 </li>
               </ul>
             </p>
-            <p className="pt-3">
+            <p>
               <strong>Get in touch: </strong>
               <a
                 href="https://drive.google.com/file/d/15XWS344J4H31qoAdlRDlR2gKrT6H50In/view?usp=sharing"

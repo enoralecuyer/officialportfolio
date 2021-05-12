@@ -54,6 +54,33 @@ function Home() {
             <strong>Projects:</strong>
           </h1>
           <a
+            href="https://confidencecoaching.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h1 className="home-project">
+              <Emoji symbol="🔮 " label="crystal ball" />
+              Coaching Business Portfolio
+            </h1>
+          </a>
+          <h4 className="home-project-subtitle">
+            My previous coaching business website built with Bulma, HTML5, CSS3 and
+            Google Analytics.
+          </h4>
+          <a
+            href="https://w-hotels-resort.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h1 className="home-project">
+              <Emoji symbol="🏨 " label="hotel" />W Hotels Resort
+            </h1>
+          </a>
+          <h4 className="home-project-subtitle">
+            Resort website in React and Contentful with search options for
+            price, size and type of room.
+          </h4>
+          <a
             href="https://face-recognition-web.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
@@ -80,33 +107,6 @@ function Home() {
           <h4 className="home-project-subtitle">
             Gallery of cats with names and images automatically generated
             from an API and json placeholders. Built with React + Redux.
-          </h4>
-          <a
-            href="https://w-hotels-resort.netlify.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h1 className="home-project">
-              <Emoji symbol="🏨 " label="hotel" />W Hotels Resort
-            </h1>
-          </a>
-          <h4 className="home-project-subtitle">
-            Resort website in React and Contentful with search options for
-            price, size and type of room.
-          </h4>
-          <a
-            href="https://confidencecoaching.netlify.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h1 className="home-project">
-              <Emoji symbol="🔮 " label="crystal ball" />
-              Coaching Business Portfolio
-            </h1>
-          </a>
-          <h4 className="home-project-subtitle">
-            My previous coaching business website built with Bulma, HTML5, CSS3 and
-            Google Analytics.
           </h4>
           <a
             href="https://enoralecuyer.github.io/textadventure/"

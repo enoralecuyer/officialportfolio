@@ -13,7 +13,7 @@ function Blog() {
             <Emoji symbol="💕" label="two hearts" />
             My Favorite Visual Code Studio Extensions
           </h1>
-          <p>April 25, 2020</p>
+          <p>April 25, 2021</p>
           <p>
             Visual Studio Code is by far my favorite code editor. I've tried
             Sublime and Atom in the past but they really don't make the cut.

@@ -13,7 +13,7 @@ function Blog() {
             <Emoji symbol="🎉" label="party popper" />
             My Favorite Developer Tools
           </h1>
-          <p>April 22, 2020</p>
+          <p>May 12, 2021</p>
           <p>
             Over the years, I've accumulated quite a few useful tools and
             resources for programmers. It's time to organize them and share them
@@ -594,7 +594,7 @@ function Blog() {
             <li>
               <strong>
                 <a
-                  href="https://www.react-spring.io/docs/hooks/examples"
+                  href="https://www.react-spring.io"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

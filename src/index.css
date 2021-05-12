@@ -72,14 +72,12 @@ h2 {
   width: auto;
   height: 400px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 2rem auto;
 }
 
 .about-title {
   text-align: center;
   padding-top: 4rem;
-  margin-bottom: 4rem;
 }
 
 .about-description {
