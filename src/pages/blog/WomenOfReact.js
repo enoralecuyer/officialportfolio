@@ -127,7 +127,7 @@ function Blog() {
             alt="Design System"
           ></img>
           <h6>
-            <i>Important elements of a Design Dystem</i>
+            <i>Important elements of a Design System</i>
           </h6>
           <p>
             <strong>

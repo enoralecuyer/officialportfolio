@@ -221,7 +221,7 @@ function Blog() {
                 </a>
               </strong>
             </li>
-            <p>A visual way to understand the hierachy of CSS Specificity.</p>
+            <p>A visual way to understand the hierarchy of CSS Specificity.</p>
             <li>
               <strong>
                 <a

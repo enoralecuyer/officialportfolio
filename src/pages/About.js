@@ -22,7 +22,7 @@ function About() {
             </p>
             <p className="pt-3">
               When I am not coding and learning new languages, I am usually found hiking, gardening
-              or playing video games with my wife.
+              or playing video games.
             </p>
             <p className="pt-3">
               <strong>Dev Skills: </strong>
