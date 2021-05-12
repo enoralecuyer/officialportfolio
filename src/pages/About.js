@@ -24,19 +24,19 @@ function About() {
               When I am not coding and learning new languages, I am usually found hiking, gardening
               or playing video games with my wife.
             </p>
+            <p className="pt-3">
+              <strong>Dev Skills: </strong>
+              HTML5, CSS3, Bootstrap, Tachyons, JavaScript, React, Redux, Node, Express, Rest APIs,
+              Json, Contentful, Netlify, Git, Version Control, Bash, Powershell, SQL, Windows, Linux, Mac, Jira,
+              Slack, Salesforce, Figma, Agile, Scrum, Project Management, Software Training, Documentation, Testing, Debugging.
+            </p>
             <p className="pt-3"><strong>IT Support Skills: </strong>
               Basic computer architecture, Operating systems (Windows, Linux, Mac), Remote connection
               and virtual machines, Computer networking, Software management, Troubleshooting, Customer
               service, Routing concepts, VPNs and proxies, Permissioning, Package and software management,
               Process management, Resource monitoring, Systems administration, Configuration, Centralized
               management, Implementing/managing directory services, Data management and recovery, IT security,
-              Cryptology/encryption, Hashing, Network security </p>
-            <p className="pt-3">
-              <strong>Dev Skills: </strong>
-              HTML5, CSS3, JavaScript, React, Redux, Bootstrap, Tachyons, Bulma,
-              Rest APIs, Node, Express, Contentful, Netlify, SQL, Git, Version
-              Control, Powershell, Figma.
-            </p>
+              Cryptology/encryption, Hashing, Network security</p>
             <p className="pt-3">
               <strong>Soft Skills: </strong>
               Positive attitude, customer service, clear communication, active listening,
