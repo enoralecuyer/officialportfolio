@@ -20,7 +20,7 @@ function About() {
               delivered the best possible experience to clients in IT and accounting support. Today I
               am pursuing my love of software engineering.
             </p>
-            <p>
+            <p className="pt-3">
               When I am not coding and learning new languages, I am usually found hiking, gardening
               or playing video games with my wife.
             </p>
@@ -31,18 +31,18 @@ function About() {
               Process management, Resource monitoring, Systems administration, Configuration, Centralized
               management, Implementing/managing directory services, Data management and recovery, IT security,
               Cryptology/encryption, Hashing, Network security </p>
-            <p>
+            <p className="pt-3">
               <strong>Dev Skills: </strong>
               HTML5, CSS3, JavaScript, React, Redux, Bootstrap, Tachyons, Bulma,
               Rest APIs, Node, Express, Contentful, Netlify, SQL, Git, Version
-              Control, Powershell.
+              Control, Powershell, Figma.
             </p>
-            <p>
+            <p className="pt-3">
               <strong>Soft Skills: </strong>
               Positive attitude, customer service, clear communication, active listening,
               conflict resolution, sense of humor.
             </p>
-            <p>
+            <p className="pt-3">
               <strong>Certifications: </strong>
               <ul>
                 <li>
@@ -61,7 +61,7 @@ function About() {
                 <li>Data Science Professional Certificate - Coursera, IBM</li>
               </ul>
             </p>
-            <p>
+            <p className="pt-3">
               <strong>Education: </strong>
               <ul>
                 <li>
@@ -78,7 +78,7 @@ function About() {
                 </li>
               </ul>
             </p>
-            <p>
+            <p className="pt-3">
               <strong>Get in touch: </strong>
               <a
                 href="https://drive.google.com/file/d/15XWS344J4H31qoAdlRDlR2gKrT6H50In/view?usp=sharing"
