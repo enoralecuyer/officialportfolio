@@ -81,7 +81,7 @@ function About() {
             <p className="pt-3">
               <strong>Get in touch: </strong>
               <a
-                href="https://drive.google.com/file/d/15XWS344J4H31qoAdlRDlR2gKrT6H50In/view?usp=sharing"
+                href="https://drive.google.com/file/d/1BF8vG5twrPoZLP4NA0Ed788DPuruwkdV/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
