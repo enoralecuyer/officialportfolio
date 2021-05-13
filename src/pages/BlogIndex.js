@@ -11,13 +11,13 @@ function BlogIndex() {
     <Container fluid={true} className="table-of-contents">
       <Row className="justify-content-center">
         <Col md={8}>
-          {/* <Link to="/Emmet">
+          <Link to="/Emmet">
             <h1 className="blog-title">
               <Emoji symbol="✍🏾 " label="writing hand" />
               How to Use VSC Emmet?
             </h1>
             <p>May 13, 2021</p>
-          </Link> */}
+          </Link>
           <Link to="/FavDevTools">
             <h1 className="blog-title">
               <Emoji symbol="🎉 " label="party popper" />
