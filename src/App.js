@@ -10,6 +10,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import BlogIndex from "./pages/BlogIndex";
 import FavDevTools from "./pages/blog/FavDevTools";
+import Emmet from "./pages/blog/Emmet";
 import WomenOfReact from "./pages/blog/WomenOfReact";
 import VSCExtensions from "./pages/blog/VSCExtensions";
 import Footer from "./components/Footer";
@@ -52,6 +53,8 @@ class App extends React.Component {
           <Route path="/womenofreact" render={() => <WomenOfReact />} />
           <Route path="/favdevtools" render={() => <FavDevTools />} />
           <Route path="/vscextensions" render={() => <VSCExtensions />} />
+          <Route path="/emmet" render={() => <Emmet />} />
+
 
           <Footer />
         </Container>
