@@ -16,29 +16,29 @@ function BlogIndex() {
               <Emoji symbol="✍🏾 " label="writing hand" />
               How to Use VSC Emmet?
             </h1>
-            <p>May 13, 2021</p> */}
-          </Link>
-        <Link to="/FavDevTools">
-          <h1 className="blog-title">
-            <Emoji symbol="🎉 " label="party popper" />
+            <p>May 13, 2021</p>
+          </Link> */}
+          <Link to="/FavDevTools">
+            <h1 className="blog-title">
+              <Emoji symbol="🎉 " label="party popper" />
               My Favorite Developer Tools
             </h1>
-          <p>May 12, 2021</p>
-        </Link>
-        <Link to="/VSCExtensions">
-          <h1 className="blog-title">
-            <Emoji symbol="💕 " label="two hearts" />
+            <p>May 12, 2021</p>
+          </Link>
+          <Link to="/VSCExtensions">
+            <h1 className="blog-title">
+              <Emoji symbol="💕 " label="two hearts" />
               My Favorite Visual Code Studio Extensions
             </h1>
-          <p>April 25, 2021</p>
-        </Link>
-        <Link to="/WomenOfReact">
-          <h1 className="blog-title">
-            <Emoji symbol="⚛️ " label="woman technologist react" />
+            <p>April 25, 2021</p>
+          </Link>
+          <Link to="/WomenOfReact">
+            <h1 className="blog-title">
+              <Emoji symbol="⚛️ " label="woman technologist react" />
               What I learned from Women of React 2020
             </h1>
-          <p>April 29, 2020</p>
-        </Link>
+            <p>April 29, 2020</p>
+          </Link>
         </Col>
       </Row>
     </Container >
