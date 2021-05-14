@@ -15,7 +15,7 @@ function Blog() {
           </h1>
           <p>May 13, 2021</p>
           <p>
-            Emmet allow me to write my code faster in Visual Studio Code, and these are the ones I use the most:
+            Emmet shortcuts allow me to write my code faster in Visual Studio Code, and these are the ones I use the most:
           </p>
           <p className="title-with-border">
             <strong>1. Boilerplate HTML (The '!' at the very beginning of a HTML page)</strong>
