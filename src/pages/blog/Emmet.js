@@ -77,7 +77,7 @@ function Blog() {
           <p className="title-with-border">
             <strong>7. Div with a class</strong>
           </p>
-          <p>To create a div with the a class of "hero-class", just type:</p>
+          <p>To create a div with the class "hero-class", just type:</p>
           <pre>{`.hero-class`}</pre>
           <p>And it will print:</p>
           <pre>{`<div class="hero-class"></div>`}
