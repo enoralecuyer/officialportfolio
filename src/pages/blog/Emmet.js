@@ -11,7 +11,7 @@ function Blog() {
         <Col>
           <h1>
             <Emoji symbol="✍🏾" label="writing hand" />
-            How to Use VSC Emmet?
+            How to Use VSC Emmet Shortcuts?
           </h1>
           <p>May 13, 2021</p>
           <p>
