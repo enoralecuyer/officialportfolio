@@ -15,7 +15,7 @@ function Blog() {
           </h1>
           <p>May 13, 2021</p>
           <p>
-            Emmet shortcuts allow me to code faster in Visual Studio Code. This is my top 10!
+            Emmet shortcuts allow me to code faster in Visual Studio Code! These are the ones I use the most!
           </p>
           <p className="title-with-border">
             <strong>1. Boilerplate HTML (The '!' at the very beginning of a HTML page)</strong>
@@ -56,7 +56,7 @@ function Blog() {
           </pre>
 
           <p className="title-with-border">
-            <strong>5. Lorem Ipsum</strong>
+            <strong>4. Lorem Ipsum</strong>
           </p>
           <p>Type:</p>
           <pre>{` lorem50 `}</pre>
@@ -65,7 +65,7 @@ function Blog() {
           </pre>
 
           <p className="title-with-border">
-            <strong>6. Paragraphs of lorem ipsum</strong>
+            <strong>5. Paragraphs of lorem ipsum</strong>
           </p>
           <p>Type:</p>
           <pre>{` (p>lorem5)*2 `}</pre>
@@ -75,7 +75,7 @@ function Blog() {
           </pre>
 
           <p className="title-with-border">
-            <strong>7. Div with a class</strong>
+            <strong>6. Div with a class</strong>
           </p>
           <p>Type:</p>
           <pre>{`.hero-class`}</pre>
@@ -84,7 +84,7 @@ function Blog() {
           </pre>
 
           <p className="title-with-border">
-            <strong>8. Div with an id</strong>
+            <strong>7. Div with an id</strong>
           </p>
           <p>Type:</p>
           <pre>{`#hero-id`}</pre>
@@ -93,7 +93,7 @@ function Blog() {
           </pre>
 
           <p className="title-with-border">
-            <strong>9. Parent div and child div</strong>
+            <strong>8. Parent div and child div</strong>
           </p>
           <p>Type:</p>
           <pre>{`section>p`}</pre>
@@ -104,7 +104,7 @@ function Blog() {
           </pre>
 
           <p className="title-with-border">
-            <strong>10. Combine them all! </strong>
+            <strong>9. Combine them all! </strong>
           </p>
           <p>Type: </p>
           <pre>{`ul.list>(li>lorem5)*10`}</pre>
