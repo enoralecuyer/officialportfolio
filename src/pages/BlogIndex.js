@@ -14,7 +14,7 @@ function BlogIndex() {
           <Link to="/Emmet">
             <h1 className="blog-title">
               <Emoji symbol="✍🏾 " label="writing hand" />
-              How to Use VSC Emmet shortcuts?
+              How to Use VSC Emmet Shortcuts?
             </h1>
             <p>May 13, 2021</p>
           </Link>
