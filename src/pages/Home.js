@@ -54,6 +54,19 @@ function Home() {
             <strong>Projects:</strong>
           </h1>
           <a
+            href="https://socalparks.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h1 className="home-project">
+              <Emoji symbol="🏞️ " label="mountain" />
+              SoCal Parks
+            </h1>
+          </a>
+          <h4 className="home-project-subtitle">
+            A collection of all the hikes I've done in SoCal, organized by length, difficulty, city, accessibility and more!
+          </h4>
+          <a
             href="https://confidencecoaching.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
