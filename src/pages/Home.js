@@ -71,6 +71,27 @@ function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
+            <h1 className="home-title">
+            <strong>Projects:</strong>
+          </h1>
+          <a
+            href="https://online-musikk.netlify.app/#"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h1 className="home-project">
+              <Emoji symbol="🎵 " label="musical note" />
+              OnlineMusikk
+            </h1>
+          </a>
+          <h4 className="home-project-subtitle">
+            A responsive music store built with HTML5, SASS and JavaScript.
+          </h4>
+          <a
+            href="https://confidencecoaching.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          ></a>
             <h1 className="home-project">
               <Emoji symbol="🔮 " label="crystal ball" />
               Coaching Business Portfolio
