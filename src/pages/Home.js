@@ -67,20 +67,12 @@ function Home() {
             A collection of all the hikes I've done in SoCal, organized by length, difficulty, city, accessibility and more!
           </h4>
           <a
-            href="https://confidencecoaching.netlify.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h1 className="home-title">
-            <strong>Projects:</strong>
-          </h1>
-          <a
-            href="https://online-musikk.netlify.app/#"
+            href="https://online-musikk.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <h1 className="home-project">
-              <Emoji symbol="🎵 " label="musical note" />
+              <Emoji symbol="🎵 " label="crystal ball" />
               OnlineMusikk
             </h1>
           </a>
@@ -91,7 +83,7 @@ function Home() {
             href="https://confidencecoaching.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
-          ></a>
+          >
             <h1 className="home-project">
               <Emoji symbol="🔮 " label="crystal ball" />
               Coaching Business Portfolio
