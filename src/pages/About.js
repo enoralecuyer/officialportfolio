@@ -18,7 +18,7 @@ function About() {
               and cat. I have a professional background in art history, project management, and business
               coaching. After running a coaching business, I joined the customer service field where I
               delivered the best possible experience to clients in IT and accounting support. Today I
-              am pursuing my love of software engineering.
+              am pursuing my love of web development.
             </p>
             <p className="pt-3">
               When I am not coding and learning new languages, I am usually found hiking, gardening
@@ -81,7 +81,7 @@ function About() {
             <p className="pt-3">
               <strong>Get in touch: </strong>
               <a
-                href="https://drive.google.com/file/d/1fzJyq-UTNnJfebveZbUtvUq1maTGp0Fv/view?usp=sharing"
+                href="https://drive.google.com/file/d/1mkqcznDZOtg-XT30lBY-pktdMakuulKK/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >

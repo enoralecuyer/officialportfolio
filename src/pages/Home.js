@@ -15,7 +15,7 @@ function Home() {
           <h1>
             <strong>Hi, I'm Enora!</strong>
           </h1>
-          <h1>I'm a Software Engineer</h1>
+          <h1>I'm a Web Developer</h1>
           <h1 className="home-subtitle">
             based in Orange County{" "}
             <span class="wave">
@@ -77,7 +77,7 @@ function Home() {
             </h1>
           </a>
           <h4 className="home-project-subtitle">
-            A responsive music store built with HTML5, SASS and JavaScript.
+            Responsive shopping cart interface for a music store, built with HTML5, SASS and JavaScript.
           </h4>
           <a
             href="https://confidencecoaching.netlify.app/"
