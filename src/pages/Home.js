@@ -77,7 +77,7 @@ function Home() {
             </h1>
           </a>
           <h4 className="home-project-subtitle">
-            Responsive shopping cart interface for a music store, built with HTML5, SASS and JavaScript.
+            A responsive shopping cart interface for a music store, built with HTML5, SASS and JavaScript.
           </h4>
           <a
             href="https://confidencecoaching.netlify.app/"
