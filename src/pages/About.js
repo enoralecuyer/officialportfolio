@@ -14,43 +14,49 @@ function About() {
             <h1 className="about-title">Hi, nice to meet you!</h1>
             <img className="profile" src={profile} alt="profile" />
             <p>
-              Born and raised in France, I now live in Southern California with my wife and our dog
-              and cat. I have a professional background in art history, project management, and business
-              coaching. After running a coaching business, I joined the customer service field where I
-              delivered the best possible experience to clients in IT and accounting support. Today I
-              am pursuing my love of web development.
+              Born and raised in France, I now live in Southern California with
+              my wife and our dog and cat. I have a professional background in
+              art history, project management, and business coaching. After
+              running a coaching business, I joined the customer service field
+              where I delivered the best possible experience to clients in IT
+              and accounting support. Today I am pursuing my love of web
+              development.
             </p>
             <p className="pt-3">
-              When I am not coding and learning new languages, I am usually found hiking, gardening
-              or playing video games.
+              When I am not coding and learning new languages, I am usually
+              found hiking, gardening or playing video games.
             </p>
             <p className="pt-3">
               <strong>Dev Skills: </strong>
-              HTML5, CSS3, Bootstrap, Tachyons, JavaScript, React, Redux, Node, Express, Rest APIs,
-              Json, Contentful, Netlify, Git, Version Control, Bash, Powershell, SQL, Windows, Linux, Mac, Jira,
-              Slack, Salesforce, Figma, Agile, Scrum, Project Management, Software Training, Documentation, Testing, Debugging.
+              HTML5, CSS3, Bootstrap, Tachyons, JavaScript, React, Redux, Node,
+              Express, Rest APIs, Json, Contentful, Netlify, Git, Version
+              Control, Bash, Powershell, SQL, Windows, Linux, Mac, Jira, Slack,
+              Salesforce, Figma, Agile, Scrum, Project Management, Software
+              Training, Documentation, Testing, Debugging.
             </p>
-            <p className="pt-3"><strong>IT Support Skills: </strong>
-              Basic computer architecture, Operating systems (Windows, Linux, Mac), Remote connection
-              and virtual machines, Computer networking, Software management, Troubleshooting, Customer
-              service, Routing concepts, VPNs and proxies, Permissioning, Package and software management,
-              Process management, Resource monitoring, Systems administration, Configuration, Centralized
-              management, Implementing/managing directory services, Data management and recovery, IT security,
-              Cryptology/encryption, Hashing, Network security</p>
+            <p className="pt-3">
+              <strong>IT Support Skills: </strong>
+              Basic computer architecture, Operating systems (Windows, Linux,
+              Mac), Remote connection and virtual machines, Computer networking,
+              Software management, Troubleshooting, Customer service, Routing
+              concepts, VPNs and proxies, Permissioning, Package and software
+              management, Process management, Resource monitoring, Systems
+              administration, Configuration, Centralized management,
+              Implementing/managing directory services, Data management and
+              recovery, IT security, Cryptology/encryption, Hashing, Network
+              security
+            </p>
             <p className="pt-3">
               <strong>Soft Skills: </strong>
-              Positive attitude, customer service, clear communication, active listening,
-              conflict resolution, sense of humor.
+              Positive attitude, customer service, clear communication, active
+              listening, conflict resolution, sense of humor.
             </p>
             <p className="pt-3">
               <strong>Certifications: </strong>
               <ul>
-                <li>
-                  SQL Certification - SoloLearn
-                </li>
-                <li>
-                  Google IT Support Professional Certification - Coursera
-                </li>
+                <li>Getting Started with Python - Coursera</li>
+                <li>SQL Certification - SoloLearn</li>
+                <li>Google IT Support Professional Certification - Coursera</li>
                 <li>
                   The Complete Web Developer in 2021 - Udemy, Andrei Neagoie
                 </li>
@@ -81,7 +87,7 @@ function About() {
             <p className="pt-3">
               <strong>Get in touch: </strong>
               <a
-                href="https://drive.google.com/file/d/1HGmGalhJ4k64ORENcNxuMhFx3hM0UDQx/view?usp=sharing"
+                href="https://drive.google.com/file/d/1HnHX4XlOdWfium70x-e9d0dpFMmPmMuC/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
