@@ -15,24 +15,25 @@ function About() {
             <img className="profile" src={profile} alt="profile" />
             <p>
               Born and raised in France, I now live in Southern California with
-              my wife and our dog and cat. I have a professional background in
-              art history, project management, and business coaching. After
-              running a coaching business, I joined the customer service field
-              where I delivered the best possible experience to clients in IT
-              and accounting support. Today I am pursuing my love of web
-              development.
+              my cat and dog. I have a professional background in art history,
+              project management, and business coaching. After running a
+              coaching business, I joined the customer service field where I
+              delivered the best possible experience to clients in tech and
+              accounting support. Today I am pursuing my love of technical
+              analysis.
             </p>
             <p className="pt-3">
               When I am not coding and learning new languages, I am usually
               found hiking, gardening or playing video games.
             </p>
             <p className="pt-3">
-              <strong>Dev Skills: </strong>
-              HTML5, CSS3, Bootstrap, Tachyons, JavaScript, React, Redux, Node,
-              Express, Rest APIs, Json, Contentful, Netlify, Git, Version
-              Control, Bash, Powershell, SQL, Windows, Linux, Mac, Jira, Slack,
-              Salesforce, Figma, Agile, Scrum, Project Management, Software
-              Training, Documentation, Testing, Debugging.
+              <strong>Tech Skills: </strong>
+              XML, HTML5, HTTP, CSS3, SASS, JavaScript, React, Redux, NodeJS,
+              Python, SQL, Jupyter Notebook, Rest APIs, JSON, npm, CRM,
+              Contentful, Netlify, SEO, SSO, Git, Linux, Windows, Mac, Jira,
+              Slack, Salesforce, Zendesk, Figma, InDesign, Agile, Project
+              Management, Software Training, IT Support, Data Analysis, Data
+              Management, Spanish, French (native)
             </p>
             <p className="pt-3">
               <strong>IT Support Skills: </strong>
@@ -48,8 +49,9 @@ function About() {
             </p>
             <p className="pt-3">
               <strong>Soft Skills: </strong>
-              Positive attitude, customer service, clear communication, active
-              listening, conflict resolution, sense of humor.
+              Positive attitude, excellent customer service, clear
+              communication, active listening, conflict resolution, empathy,
+              sense of humor.
             </p>
             <p className="pt-3">
               <strong>Certifications: </strong>

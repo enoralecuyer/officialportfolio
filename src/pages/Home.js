@@ -15,7 +15,7 @@ function Home() {
           <h1>
             <strong>Hi, I'm Enora!</strong>
           </h1>
-          <h1>I'm a Web Developer</h1>
+          <h1>I'm an Analyst and Web Developer</h1>
           <h1 className="home-subtitle">
             based in Orange County{" "}
             <span class="wave">
@@ -64,7 +64,8 @@ function Home() {
             </h1>
           </a>
           <h4 className="home-project-subtitle">
-            A collection of all the hikes I've done in SoCal, organized by length, difficulty, city, accessibility and more!
+            A collection of all the hikes I've done in SoCal, organized by
+            length, difficulty, city, accessibility and more!
           </h4>
           <a
             href="https://online-musikk.netlify.app/"
@@ -77,7 +78,8 @@ function Home() {
             </h1>
           </a>
           <h4 className="home-project-subtitle">
-            A responsive shopping cart interface for a music store, built with HTML5, SASS and JavaScript.
+            A responsive shopping cart interface for a music store, built with
+            HTML5, SASS and JavaScript.
           </h4>
           <a
             href="https://confidencecoaching.netlify.app/"
@@ -90,8 +92,8 @@ function Home() {
             </h1>
           </a>
           <h4 className="home-project-subtitle">
-            My previous coaching business website built with Bulma, HTML5, CSS3 and
-            Google Analytics.
+            My previous coaching business website built with Bulma, HTML5, CSS3
+            and Google Analytics.
           </h4>
           <a
             href="https://w-hotels-resort.netlify.app/"
@@ -117,8 +119,8 @@ function Home() {
             </h1>
           </a>
           <h4 className="home-project-subtitle">
-            Upload the photo of a person and see their face being detected. Built
-            with Clarifai API.
+            Upload the photo of a person and see their face being detected.
+            Built with Clarifai API.
           </h4>
           <a
             href="https://cat-robot-redux.netlify.app/"
@@ -131,8 +133,8 @@ function Home() {
             </h1>
           </a>
           <h4 className="home-project-subtitle">
-            Gallery of cats with names and images automatically generated
-            from an API and json placeholders. Built with React + Redux.
+            Gallery of cats with names and images automatically generated from
+            an API and json placeholders. Built with React + Redux.
           </h4>
           <a
             href="https://enoralecuyer.github.io/textadventure/"
@@ -145,7 +147,8 @@ function Home() {
             </h1>
           </a>
           <h4 className="home-project-subtitle">
-            Minigame in the style of a Choose Your Own Adventure book, written in HTML5, CSS3 and JS.
+            Minigame in the style of a Choose Your Own Adventure book, written
+            in HTML5, CSS3 and JS.
           </h4>
         </Col>
       </Row>
