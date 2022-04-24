@@ -10,7 +10,7 @@ function Footer() {
     <footer className="mt-5">
       <Container fluid={true}>
         <Row className="justify-content-center padding">
-          <h3>&copy; {new Date().getFullYear()} Enora Lecuyer - Web Developer</h3>
+          <h3>&copy; {new Date().getFullYear()} Enora Lecuyer - Analyst and Web Developer</h3>
         </Row>
         <Row className="justify-content-center">
           <a
