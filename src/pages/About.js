@@ -14,59 +14,42 @@ function About() {
             <h1 className="about-title">Hi, nice to meet you!</h1>
             <img className="profile" src={profile} alt="profile" />
             <p>
-              Born and raised in France, I now live in Southern California with
-              my cat and dog. I have a professional background in art history,
-              project management, and business coaching. After running a
-              coaching business, I joined the customer service field where I
-              delivered the best possible experience to clients in tech and
-              accounting support. Today I am pursuing my love of technical
-              analysis.
+              Born and raised in France, I now live in Southern California with my wife, cat and dog.
             </p>
             <p className="pt-3">
-              When I am not coding and learning new languages, I am usually
+              I have a background in analytics, front-end development, project management, 
+                and business coaching. I have a passion for the arts and sustainable development.
+            </p>
+            <p className="pt-3">
+              When I am not coding and continually expanding my technical knowledge, I am usually 
               found hiking, gardening or playing video games.
             </p>
             <p className="pt-3">
-              <strong>Tech Skills: </strong>
-              XML, HTML5, HTTP, CSS3, SASS, JavaScript, React, Redux, NodeJS,
-              Python, SQL, Jupyter Notebook, Rest APIs, JSON, npm, CRM,
-              Contentful, Netlify, SEO, SSO, Git, Linux, Windows, Mac, Jira,
-              Slack, Salesforce, Zendesk, Figma, InDesign, Agile, Project
-              Management, Software Training, IT Support, Data Analysis, Data
-              Management, Spanish, French (native)
+              <strong>Skills: </strong>
+              <ul>
+              <li>Requirement Gathering and Analysis</li>
+              <li>Technical Customer Support</li>
+              <li>Stakeholder Management</li>
+              <li>Agile Project Management</li>
+              <li>Information Architecture (IA)</li>
+              <li>Front-End Development</li>
+              <li>Data Analysis, Data Visualization</li>
+              <li>UX/UI Principles</li>
+              </ul>
             </p>
             <p className="pt-3">
-              <strong>IT Support Skills: </strong>
-              Basic computer architecture, Operating systems (Windows, Linux,
-              Mac), Remote connection and virtual machines, Computer networking,
-              Software management, Troubleshooting, Customer service, Routing
-              concepts, VPNs and proxies, Permissioning, Package and software
-              management, Process management, Resource monitoring, Systems
-              administration, Configuration, Centralized management,
-              Implementing/managing directory services, Data management and
-              recovery, IT security, Cryptology/encryption, Hashing, Network
-              security
-            </p>
-            <p className="pt-3">
-              <strong>Soft Skills: </strong>
-              Positive attitude, excellent customer service, clear
-              communication, active listening, conflict resolution, empathy,
-              sense of humor.
+              <strong>Tools & Programming Languages: </strong>
+              MS Office, MS Excel, Pivot Tables, SQL, Tableau, Jira, Confluence, Salesforce, Zendesk, HubSpot, Figma, 
+                InDesign, Miro, Netlify, Git, PHP, HTML5, CSS3, SASS, JavaScript, ReactJS, API, JSON
             </p>
             <p className="pt-3">
               <strong>Certifications: </strong>
               <ul>
-                <li>Getting Started with Python - Coursera</li>
-                <li>SQL Certification - SoloLearn</li>
-                <li>Google IT Support Professional Certification - Coursera</li>
-                <li>
-                  The Complete Web Developer in 2021 - Udemy, Andrei Neagoie
-                </li>
-                <li>
-                  Software Product Management Specialization - University of
-                  Alberta, Canada
-                </li>
-                <li>Data Science Professional Certificate - Coursera, IBM</li>
+                <li>Google IT Support Professional Certification</li>
+                <li>Software Product Management Specialization, University of Alberta, Canada</li>
+                <li>SQL Certification, SoloLearn</li>
+                <li>The Complete Web Developer in 2021, Udemy</li>
+                <li>Data Science Professional Certificate, Coursera, IBM</li>
               </ul>
             </p>
             <p className="pt-3">
