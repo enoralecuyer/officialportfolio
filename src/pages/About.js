@@ -17,31 +17,31 @@ function About() {
               Born and raised in France, I now live in Southern California with my wife, cat and dog.
             </p>
             <p className="pt-3">
-              I have a background in analytics, front-end development, project management, 
-                and business coaching. I have a passion for the arts and sustainable development.
+              I have a background in technical customer support, front-end development, 
+              and business coaching. I am recognized as a forward-thinking, detail-oriented, and 
+              reliable IT professional. I am always up for a challenge, curious about learning 
+              new technologies, and committed to professional growth. 
             </p>
             <p className="pt-3">
-              When I am not coding and continually expanding my technical knowledge, I am usually 
+              When I am not coding or taking new classes, I am usually 
               found hiking, gardening or playing video games.
             </p>
             <p className="pt-3">
               <strong>Skills: </strong>
               <ul>
-              <li>Requirement Gathering and Analysis</li>
               <li>Technical Customer Support</li>
-              <li>Stakeholder Management</li>
-              <li>Agile Project Management</li>
-              <li>Information Architecture (IA)</li>
+              <li>Agile Software Development (SaaS)</li>
               <li>Front-End Development</li>
-              <li>Data Analysis, Data Visualization</li>
+              <li>Technical Writing</li>
+              <li>Requirement Gathering</li>
+              <li>QA</li>
+              <li>Data Analysis & Visualization</li>
               <li>UX/UI Principles</li>
               </ul>
             </p>
             <p className="pt-3">
               <strong>Tools & Programming Languages: </strong>
-              MS Office, MS Excel, Pivot Tables, SQL, Tableau, Jira, Confluence, Salesforce, Zendesk, HubSpot, Figma, 
-                InDesign, Miro, Netlify, Git, PHP, HTML5, CSS3, SASS, JavaScript, ReactJS, API, JSON
-            </p>
+              Salesforce, Zendesk, HubSpot, Jira, Confluence, Google Analytics, PowerBI, Tableau, HTML5, CSS3, JavaScript, SQL, Git, API, MS Office, Google Apps, Slack, MS Teams, Figma, Miro.            </p>
             <p className="pt-3">
               <strong>Certifications: </strong>
               <ul>
