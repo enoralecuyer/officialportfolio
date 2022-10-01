@@ -15,7 +15,7 @@ function Home() {
           <h1>
             <strong>Hi, I'm Enora!</strong>
           </h1>
-          <h1>I'm an Analyst and Web Developer</h1>
+          <h1>I'm an Analyst and Engineer</h1>
           <h1 className="home-subtitle">
             based in Orange County{" "}
             <span class="wave">
