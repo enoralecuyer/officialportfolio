@@ -42,7 +42,7 @@ function About() {
             <p className="pt-3">
               <strong>Tools & Programming Languages: </strong>
               Salesforce, Zendesk, HubSpot, Jira, Confluence, Google Analytics, Tableau, 
-              HTML5, CSS3, JavaScript, React, NodeJS, SQL, REST APIs, Git, MS Office, Google Apps, Slack, MS Teams, Figma.</p>
+              HTML5, CSS3, JavaScript, React, NodeJS, Python, SQL, REST APIs, Git, AWS DynamoDB, Postman, Swagger, MS Office, Google Apps, Slack, MS Teams, Figma.</p>
             <p className="pt-3">
               <strong>Certifications: </strong>
               <ul>
