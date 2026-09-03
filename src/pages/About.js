@@ -14,7 +14,7 @@ function About() {
             <h1 className="about-title">Hi, nice to meet you!</h1>
             <img className="profile" src={profile} alt="profile" />
             <p>
-              Born and raised in France, I now live in Southern California with my wife, cat and dog.
+              Born and raised in France, I now live in Southern California.
             </p>
             <p className="pt-3">
               I have a background in technical customer support, front-end development, 
